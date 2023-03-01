@@ -9,5 +9,5 @@
 </template>
 
 <script lang="ts" setup>
-import './assets/css/tailwind.css'
+import './public/css/tailwind.css'
 </script>
