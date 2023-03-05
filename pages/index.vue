@@ -1,5 +1,11 @@
 <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-  </div>
+  <AppHero/>
+
+  <AboutUs />
+
+  <TeamList />
+
+  <ContactSection />
 </template>
+
+
