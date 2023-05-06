@@ -5,6 +5,8 @@
 
   <TeamList />
 
+  <ServicesSection />
+
   <ContactSection />
 </template>
 

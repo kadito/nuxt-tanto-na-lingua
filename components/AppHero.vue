@@ -1,7 +1,7 @@
 <template>
     <div class="isolate bg-white">
       <main>
-        <div class="relative px-6 lg:px-8">
+        <div class="relative px-6 lg:px-8" style="height: 85vh;">
           <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div class="text-center">
               <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Tanto Na Língua</h1>
