@@ -1,1 +1,0 @@
-import{a as r,o as t,b as o,t as s}from"./entry.556bcf0b.js";import"./app.config.c7862b2f.js";const i={__name:"[firstname]-[lastname]",setup(n){const a=r();return a.params.group==="admins"&&!a.params.id&&console.log("Warning! Make sure user is authenticated!"),(e,m)=>(t(),o("p",null,s(e.$route.params.firstname)+" - "+s(e.$route.params.lastname),1))}};export{i as default};
