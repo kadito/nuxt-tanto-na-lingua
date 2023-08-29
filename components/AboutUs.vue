@@ -25,7 +25,7 @@
           <p class="mt-6 text-lg leading-8 text-gray-300">A Tanto na Língua, criada em 2019, possui os serviços de terapia da fala, ensino especializado, psicomotricidade, psicologia educacional, psicologia clínica, terapia ocupacional, musicoterapia, fisioterapia, tutorias e classes de estimulação global. Este projecto surgiu da vontade de maximizar o desenvolvimento global de cada criança, priorizando o trabalho em equipa, centrado na criança e ir de encontro ao ambiente mais natural da criança sem descurar o papel crucial da família e dos professores/educadores nesta evolução. Mais tarde, alargamos e especializamos os nossos serviços para um atendimento especializado à população adulta.</p>
         </div>
         <div class="mx-auto mt-8 max-w-2xl lg:mx-0 lg:max-w-none">
-          <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+          <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-3 lg:grid-cols-3">
             <div v-for="stat in stats" :key="stat.name" class="flex flex-col-reverse">
               <dt class="text-base leading-7 text-gray-300">{{ stat.name }}</dt>
               <dd class="text-2xl font-bold leading-9 tracking-tight text-white">{{ stat.value }}</dd>
@@ -38,9 +38,8 @@
   
   <script setup>
   const stats = [
-    { name: 'Offices worldwide', value: '12' },
-    { name: 'Full-time colleagues', value: '300+' },
-    { name: 'Hours per week', value: '40' },
-    { name: 'Paid time off', value: 'Unlimited' },
+    { name: 'Colaboradores', value: '21' },
+    { name: 'Utentes', value: '250' },
+    { name: 'Localizaçao', value: 'Lisboa' },
   ]
   </script>

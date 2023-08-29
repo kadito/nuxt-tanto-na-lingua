@@ -15,7 +15,7 @@
 <template>
     <div class="relative isolate bg-white">
       <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-        <div class="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:py-48 lg:px-8">
+        <div class="relative px-6 pt-20 pb-8 sm:pt-20 lg:px-8">
           <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <div class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2">
               <svg class="absolute inset-0 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
@@ -31,7 +31,7 @@
                 <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
               </svg>
             </div>
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900">Entra em Contacto Conosco</h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</p>
             <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div class="flex gap-x-4">
@@ -39,38 +39,32 @@
                   <span class="sr-only">Telephone</span>
                   <BuildingOffice2Icon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd>545 Mavis Island<br />Chicago, IL 99191</dd>
+                <dd>Moscavide<br />CODIGO POSTAL</dd>
               </div>
               <div class="flex gap-x-4">
                 <dt class="flex-none">
                   <span class="sr-only">Telephone</span>
                   <PhoneIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-gray-900" href="tel:+1 (555) 234-5678">+1 (555) 234-5678</a></dd>
+                <dd><a class="hover:text-gray-900" href="tel:+351 926635923">+351 926635923</a></dd>
               </div>
               <div class="flex gap-x-4">
                 <dt class="flex-none">
                   <span class="sr-only">Telephone</span>
                   <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-gray-900" href="mailto:hello@example.com">hello@example.com</a></dd>
+                <dd><a class="hover:text-gray-900" href="mailto:tantolingua@gmail.com">tantolingua@gmail.com</a></dd>
               </div>
             </dl>
           </div>
         </div>
-        <form action="#" method="POST" class="px-6 pb-24 pt-20 sm:pb-32 lg:py-48 lg:px-8">
+        <form action="#" method="POST" class="px-6 pb-8 pt-20 sm:pb-8 lg:px-8">
           <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
-              <div>
-                <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+              <div class="sm:col-span-2">
+                <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
                 <div class="mt-2.5">
-                  <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                </div>
-              </div>
-              <div>
-                <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
-                <div class="mt-2.5">
-                  <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                  <input type="text" name="name" id="name" autocomplete="name" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                 </div>
               </div>
               <div class="sm:col-span-2">

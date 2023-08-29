@@ -1,52 +1,47 @@
 [
     {
-        "name": "TERAPIA DA FALA",
-        "image": "../assets/images/terapia.webp",
+        "id": 1,
+        "title": "TERAPIA DA FALA",
+        "modalTitle": "O que é a Terapia da Fala?",
+        "imageUrl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "description": "A intervenção em Terapia da Fala tem como objetivo a prevenção, avaliação, intervenção e estudo científico das perturbações da comunicação humana, englobando não só todas as funções associadas à compreensão e expressão da linguagem oral e escrita, mas também outras formas de comunicação não verbal. O Terapeuta da Fala intervém, ainda, ao nível da deglutição (passagem segura de alimentos e bebidas através da orofaringe de forma a garantir uma nutrição adequada). O Terapeuta da Fala avalia e intervém em indivíduos de todas as idades, desde recém-nascidos a idosos, tendo por objetivo geral otimizar as capacidades de comunicação e/ou deglutição do indivíduo, melhorando, assim, a sua qualidade de vida (ASHA, 2007).",
+        "sections": [{
+            "type": "List",
+            "title": "Áreas de intervenção",
+            "description": "Na nossa equipa os Terapeutas da Fala intervêm com pessoas crianças, jovens, adultos e idosos que resultam de condições como:",
+            "items": [
+                "Dificuldades na aprendizagem (leitura, escrita e aritmética);",
+                "Défices nas funções executivas (capacidade de planeamento, capacidade de síntese e análise);",
+                "Problemas de autorregulação do comportamento (impulsividade, agitação, desinibição, agressividade, oposição);",
+                "Problemas psicomotores (dificuldades na regulação tónica, no equilíbrio, na estruturação espácio-temporal, na noção do corpo, na lateralidade, na motricidade global, na motricidade fina e grafomotricidade;",
+                "Demências e outras doenças associadas ao envelhecimento. ",
+                "Perturbação da coordenação motora e outras limitações do movimento;",
+                "Perturbação do Espetro do Autismo;",
+                "Perturbação da Hiperatividade e Défice de Atenção;",
+                "Perturbação Global do Desenvolvimento;",
+                "Dificuldade Intelectual e Desenvolvimental."
+            ]
+        }]
+    },
+    {
+        "id": 2,
+        "title": "MUSICOTERAPIA",
+        "imageUrl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        "name": "MUSICOTERAPIA",
-        "image": "../assets/images/book.jpeg",
+        "title": "PSICOMOTRICIDADE",
+        "imageUrl": "../assets/images/book.jpeg",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        "name": "PSICOMOTRICIDADE",
-        "image": "../assets/images/book.jpeg",
+        "title": "PSICOLOGIA EDUCACIONAL",
+        "imageUrl": "../assets/images/book.jpeg",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        "name": "PSICOLOGIA EDUCACIONAL",
-        "image": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-        "name": "PSICOLOGIA CLÍNICA",
-        "image": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-        "name": "TERAPIA OCUPACIONAL",
-        "image": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-        "name": "TUTORIAS",
-        "image": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-        "name": "CLASSES DE ESTIMULAÇÃO GLOBAL",
-        "image": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-        "name": "ENSINO ESPECIALIZADO",
-        "image": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-        "name": "FISIOTERAPIA",
-        "image": "../assets/images/book.jpeg",
+        "title": "PSICOLOGIA CLÍNICA",
+        "imageUrl": "../assets/images/book.jpeg",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     }
 ]
