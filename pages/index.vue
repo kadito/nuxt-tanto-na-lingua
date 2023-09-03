@@ -1,13 +1,13 @@
 <template>
   <AppHero/>
 
-  <AboutUs />
+  <AboutUs id="sobre-nos" />
 
-  <TeamList />
+  <TeamList id="equipa" />
 
-  <ServicesSection title="Os Nossos Serviços" :services="services" />
+  <ServicesSection id="servicos" title="Os Nossos Serviços" :services="services" />
 
-  <ContactSection />
+  <ContactSection id="contactos" />
 </template>
 
 <script setup>

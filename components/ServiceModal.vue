@@ -12,30 +12,17 @@
               <div>
                 <!-- {{ service }} -->
                 <div class="my-3 text-left sm:my-5">
-                  <DialogTitle as="h3" class="text-4xl font-bold leading-6 text-gray-900">{{ service.modalTitle }}</DialogTitle>
+                  <DialogTitle as="h3" class="text-4xl font-bold text-gray-900">{{ service.modalTitle }}</DialogTitle>
 
-
-                  <div class="my-8">
+                  <div class="mt-8 mb-4">
                     <p class="text-base text-gray-900">{{ service.description }}</p>
                   </div>
 
                   <div v-for="section in service.sections">
-                    <div v-if="section.type === 'List'">
-                      <DialogTitle as="h4" class="text-3xl font-bold leading-6 text-gray-900">{{ section.title }}</DialogTitle>
-                    </div>
+                    <ServiceList v-if="section.type === 'List'" :section="section"/>
 
-                    <div class="mt-8 mb-2">
-                      <p class="text-base text-gray-900">{{ section.description }}</p>
-                    </div>
-
-                    <ul role="list" class="ml-6">
-                      <li v-for="(item, index) in section.items" :key="index" class="flex flex-wrap items-center justify-between gap-x-6 py-1 sm:flex-nowrap">
-                        <p class="text-sm font-semibold leading-6 text-gray-700"> {{ item }} </p>
-                      </li>
-                    </ul>
-
+                    <ServiceFAQ v-if="section.type === 'FAQ'" :section="section"/>
                   </div>
-
 
                 </div>
               </div>

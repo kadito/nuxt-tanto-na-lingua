@@ -25,23 +25,105 @@
     },
     {
         "id": 2,
-        "title": "MUSICOTERAPIA",
-        "imageUrl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
         "title": "PSICOMOTRICIDADE",
-        "imageUrl": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "modalTitle": "O que é a psicomotricidade?",
+        "imageUrl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "description": "A intervenção em Psicomotricidade tem uma visão global do ser humano e vem proporcionar à criança, jovem adulto ou idoso o máximo de experiências corporais e verbais, utilizando vários materiais, modelos de intervenção e técnicas específicas para cada caso, atuando em diferentes contextos (casa, escola, etc). A Psicomotricidade é uma terapia de medição corporal interligado sempre a parte socio-emocional e cognitiva do indivíduo. Os técnicos podem exercer a sua atividade profissional no âmbito terapêutico, reabilitativo, reeducativo e/ou preventivo sendo que podem fazê-lo em sessões de um para um e/ou sessões de grupo. São ainda os técnicos-sombra especializados, que atuam principalmente no contexto escolar, bem como participam em sessões conjuntas com Terapia da Fala na aplicação de metodologias de comunicação aumentativa.",
+        "sections": [{
+            "type": "List",
+            "title": "Áreas de intervenção",
+            "description": "Na nossa equipa as Psicomotricistas intervêm com pessoas crianças, jovens, adultos e idosos que resultam de condições como:",
+            "items": [
+                "Dificuldades na aprendizagem (leitura, escrita e aritmética);",
+                "Défices nas funções executivas (capacidade de planeamento, capacidade de síntese e análise);",
+                "Problemas de autorregulação do comportamento (impulsividade, agitação, desinibição, agressividade, oposição);",
+                "Problemas psicomotores (dificuldades na regulação tónica, no equilíbrio, na estruturação espácio-temporal, na noção do corpo, na lateralidade, na motricidade global, na motricidade fina e grafomotricidade;",
+                "Demências e outras doenças associadas ao envelhecimento. ",
+                "Perturbação da coordenação motora e outras limitações do movimento;",
+                "Perturbação do Espetro do Autismo;",
+                "Perturbação da Hiperatividade e Défice de Atenção;",
+                "Perturbação Global do Desenvolvimento;",
+                "Dificuldade Intelectual e Desenvolvimental."
+            ]
+        }]
     },
     {
-        "title": "PSICOLOGIA EDUCACIONAL",
-        "imageUrl": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "id": 3,
+        "title": "CLASSES DE ESTIMULACÃO GLOBAL",
+        "modalTitle": "O que são as classes de estimulação global?",
+        "imageUrl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "description": "As classes de estimulação são um programa direcionado para escolas no qual se intervém na prevenção nas áreas de psicologia, psicomotricidade e terapia da fala. Em grupos homogéneos, no máximo até 10 crianças, estas estarão todas as semanas durante 45 minutos, de forma rotativa com uma psicóloga, uma terapeuta da fala e uma psicomotricista. Desta forma de 3 em 3 semanas repetem a terapeuta. Como objetivo principal, este programa permite estimular o desenvolvimento individual das crianças com um foco terapêutico e atento para alguma dificuldade.",
+        "sections": []
     },
     {
-        "title": "PSICOLOGIA CLÍNICA",
-        "imageUrl": "../assets/images/book.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "id": 4,
+        "title": "TERAPEUTA SOMBRA",
+        "modalTitle": "O que é o Terapeuta Sombra?",
+        "imageUrl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "description": "O Terapeuta Sombra é um programa no qual existe um(a) terapeuta que acompanha uma criança no contexto de sala regular (pré-escolar, 1º ciclo ou 2º ciclo), com o objetivo de capacitar a criança e os adultos presentes naquele contexto para o aumento da autonomia no ambiente escolar.",
+        "sections": [{
+            "type": "FAQ",
+            "items": [
+                {
+                    "question": "Quais os objetivos deste programa?",
+                    "listAnswer": [
+                        "Capacitar a criança para seguir as atividades propostas pelo(a) educador(a) ou professor, e conteúdos programáticos de forma autónoma;",
+                        "Ajudar o educador(a) ou professor(a) a adaptar os conteúdos, tanto à posteriori da matéria lecionada, como no momento, partilhando estratégias e metodologias;",
+                        "O terapeuta deve adaptar e criar estratégias para as diversas situações identificadas pela equipa, passando-as ao educador(a) ou professor(a) que as deverá implementar;",
+                        "A última finalidade deste programa é que a escola e a criança fiquem dotadas de competências que permitam o terapeuta se afastar, sendo apenas necessário vigilância supervisionada, ou seja, apoio indireto à comunidade escolar."
+                    ]
+                },
+                {
+                    "question": "Quais as diretrizes deste programa?",
+                    "listAnswer": [
+                        "Trabalho multidisciplinar da terapeuta com a comunidade escolar, principalmente educador(a), professor(a) titular e auxiliares de sala/ escola;",
+                        "O educador(a) ou professor(a) devem ter preparadas atividades estruturadas para os momentos em que a terapeuta se encontra na sala. Estas atividades podem ser planeadas em conjunto com a terapeuta para que exista uma maior adaptação dos conteúdos e tarefas;",
+                        "Se necessário, a terapeuta poderá atuar em contexto de brincadeira livre ou intervalo caso seja pertinente trabalhar esta área ou a socialização com os pares. Porém, esta deve ser uma situação pontual pois todas as crianças necessitam do seu tempo e espaço para se regular e abstrair das aprendizagens mais estruturadas;",
+                        "Os objetivos devem ser delineados em equipa multidisciplinar com a terapeuta e educador(a) ou professor(a) e todas as partes se devem comprometer em trabalhá-los sendo o objetivo final a autonomia da criança, ou seja, sem apoio do adulto;",
+                        "Inicialmente o terapeuta será a “sombra” da criança e por essa razão os objetivos deverão ser primeiramente adquiridos com a mesma. Posteriormente a criança deverá conseguir seguir os objetivos sob orientação do adulto de referência da escola, estando o terapeuta afastado apenas intervindo se necessário. Por último pretende-se que a criança apenas siga as instruções verbais dadas pelo adulto(s) de referência da escola;",
+                        "Para iniciar este programa é necessário existir uma observação indireta da criança no contexto escolar, ou seja, sem que o terapeuta intervenha. Caso a terapeuta considere necessário, pode sugerir rastreio em psicomotricidade, com o objetivo de complementar o programa Terapeuta Sombra com intervenção individual para consolidação de algumas áreas do desenvolvimento que não são possíveis de realizar em sala de aula regular;",
+                        "A intervenção como terapeuta sombra em pré-escolar é aconselhada a partir dos 4 anos de idade devido às características desenvolvimentais da idade da criança e dos pares que a rodeiam;",
+                        "O número de horas em que o terapeuta deve estar neste tipo de intervenção deve ser delineado após avaliação da criança e em conjunto com a comunidade escolar. Como um dos objetivos é dotar a comunidade escolar de estratégias e a criança de maior autonomia, pretende-se que com o evoluir da intervenção, a intervenção direta do terapeuta seja reduzida, sendo possível também a redução do horário do terapeuta na sala regular."
+                    ]
+                },
+                {
+                    "question": "O que é necessário para iniciar este programa?",
+                    "listAnswer": [
+                        "Estar numa escola que aceite um terapeuta externo na sala de aula.",
+                        "Caso seja pré-escolar é necessário tem 4 anos ou mais.",
+                        "É necessário realizar-se uma observação indireta em sala de aula e, caso necessário, um rastreio em psicomotricidade.",
+                        "Reunião com a equipa multidisciplinar da criança – escola e pais."
+                    ]
+                },
+                {
+                    "question": "Qual a diferença entre terapeuta sombra e sessões individuais em psicomotricidade?",
+                    "textAnswer": "O psicomotricista em sessão individual trabalha de forma direta as áreas do desenvolvimento infantil nas quais a criança apresenta maiores fragilidades (imitação, noção espacial e temporal, noção corporal, motricidade fina, perceção visual, motricidade global, interação social, intencionalidade comunicativa, jogo funcional e simbólico, funções executivas e regulação de comportamento). O terapeuta sombra auxilia na adaptação e conceção de estratégias para que a criança siga as orientações do adulto de referência, tornando-se autónoma no contexto escolar."
+                }
+            ]
+        }]
+    },
+    {
+        "id": 5,
+        "title": "TERAPIA OCUPACIONAL",
+        "modalTitle": "O que é a Terapia Ocupacional?",
+        "imageUrl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "description": "A Terapia Ocupacional é uma ciência da área da saúde que promove o desempenho ocupacional de pessoas em qualquer faixa etária. Habilitando a participação satisfatória em ocupações significativas do seu dia-a-dia. Ao conseguir envolver-se em ocupações significativas o ser Humano aumenta a qualidade de vida, bem-estar e autonomia. O Terapeuta Ocupacional é um profissional de saúde que ajuda pais/cuidadores/professores a obterem estratégias e, caso necessário, adaptações nos contextos, de modo a facilitar/melhorar o desempenho ocupacional da criança, promovendo, assim, a sua autonomia, bem-estar e qualidade de vida.",
+        "sections": [{
+            "type": "FAQ",
+            "items": [
+                {
+                    "question": "Áreas de Intervenção",
+                    "textAnswer": "A Terapia Ocupacional Pediátrica, foca-se em crianças que, por diversos motivos (intelectuais, físicos e/ou sensoriais), estejam a ter dificuldades em ser autónomas: quer, desde cedo, na dificuldade de integração das várias etapas do desenvolvimento, quer mais tarde com dificuldades escolares ao nível da motricidade fina, da atenção/concentração, entre outros."
+                },
+                {
+                    "question": "O que é uma ocupação?",
+                    "textAnswer": "Ao longo da nossa vida, as nossas ocupações significativas vão alterando, contudo, podemos dividi-las em três grandes áreas: Atividades da Vida Diária (AVD – englobam atividades que têm como objetivo cuidar de si próprio, como lavar os dentes, tomar banho, vestir/despir ou comer sozinho), Atividades de Lazer (por exemplo: brincar ou realizar um hobbie) e Atividades de Trabalho (por exemplo: sucesso académico ou realizar uma atividade de produtividade)."
+                },
+                {
+                    "question": "O que é a Integração Sensorial?",
+                    "textAnswer": "A Terapia Ocupacional é a única profissão especializada que trabalha com problemas de disfunção de Integração Sensorial. A Integração Sensorial é o processo neurológico que interpreta, organiza e traduz a informação sensorial recebida pelo nosso corpo, vinda do meio que está à nossa volta. Quando existe algum problema numa destas fases (interpretação, organização ou tradução), poderá existir dificuldades ao nível da atenção, da aprendizagem, do planeamento de tarefas, alimentação, etc., limitando o desempenho da criança numa atividade."
+                }
+            ]
+        }]
     }
 ]
