@@ -1,7 +1,7 @@
 <template>
 
     <div class="bg-white">
-        <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
+        <div class="divide-y divide-gray-900/10">
             <Disclosure as="div" v-for="(item, index) in section.items" :key="index" v-slot="{ open }" class="my-4">
                 <dt>
                     <DisclosureButton class="flex w-full items-start justify-between text-left text-gray-900">
