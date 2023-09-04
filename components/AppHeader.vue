@@ -25,10 +25,10 @@
   import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
   const navigation = [
-    { name: 'Sobre Nos', href: '/nuxt-tanto-na-lingua/about' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Sobre Nos', href: '#sobre-nos' },
+    { name: 'Equipa', href: '#equipa' },
+    { name: 'Serviços', href: '#servicos' },
+    { name: 'Contactos', href: '#contactos' },
   ]
 
   const mobileMenuOpen = ref(false)
