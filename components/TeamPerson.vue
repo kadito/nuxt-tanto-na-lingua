@@ -13,7 +13,7 @@
             <!-- <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p> -->
             </div>
 
-            <div class="flex flex-wrap justify-center justify-items-center">
+            <div class="flex flex-col">
               <p>{{ person.description }}</p>
   
               <p class="mt-8">{{ person.hobbies }}</p>

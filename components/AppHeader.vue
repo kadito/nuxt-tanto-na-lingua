@@ -1,6 +1,6 @@
 <template>
   <header class="bg-white">
-    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-5 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="/nuxt-tanto-na-lingua" class="-m-1.5 p-1.5">
           <span class="sr-only">Tanto Na Lingua</span>
@@ -33,3 +33,11 @@
 
   const mobileMenuOpen = ref(false)
 </script>
+
+<style scoped>
+  header { 
+    position: sticky;
+    z-index: 10;
+    top: 0;
+  }
+</style>

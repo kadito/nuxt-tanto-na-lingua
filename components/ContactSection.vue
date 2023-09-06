@@ -39,7 +39,7 @@
                   <span class="sr-only">Telephone</span>
                   <BuildingOffice2Icon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd>Moscavide<br />CODIGO POSTAL</dd>
+                <dd>Moscavide<br />1885 - 037</dd>
               </div>
               <div class="flex gap-x-4">
                 <dt class="flex-none">

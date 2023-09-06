@@ -46,7 +46,7 @@
 
 <style scoped>
 .about-us {
-  background-color: #9DD7EF;
+  background-color: #282C63;
 }
 
 .title {
@@ -54,6 +54,6 @@
 }
 
 .text {
-  color: #282C63;
+  color: #9DD7EF;
 }
 </style>
