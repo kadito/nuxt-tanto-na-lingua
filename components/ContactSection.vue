@@ -14,7 +14,8 @@
 -->
 <template>
     <div class="relative isolate bg-white">
-      <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+      <!-- mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 -->
+      <div class="mx-auto flex">
         <div class="relative px-6 pt-20 pb-8 sm:pt-20 lg:px-8">
           <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <div class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2">
@@ -58,7 +59,7 @@
             </dl>
           </div>
         </div>
-        <form action="#" method="POST" class="px-6 pb-8 pt-20 sm:pb-8 lg:px-8">
+        <!-- <form action="#" method="POST" class="px-6 pb-8 pt-20 sm:pb-8 lg:px-8">
           <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
               <div class="sm:col-span-2">
@@ -90,7 +91,7 @@
               <button type="submit" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send message</button>
             </div>
           </div>
-        </form>
+        </form> -->
       </div>
     </div>
     
