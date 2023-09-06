@@ -27,7 +27,7 @@
         "id": 2,
         "title": "PSICOMOTRICIDADE",
         "modalTitle": "O que é a psicomotricidade?",
-        "imageUrl": "/assets/images/psicomo.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/psicomo.webp",
         "description": "A intervenção em Psicomotricidade tem uma visão global do ser humano e vem proporcionar à criança, jovem adulto ou idoso o máximo de experiências corporais e verbais, utilizando vários materiais, modelos de intervenção e técnicas específicas para cada caso, atuando em diferentes contextos (casa, escola, etc). A Psicomotricidade é uma terapia de medição corporal interligado sempre a parte socio-emocional e cognitiva do indivíduo. Os técnicos podem exercer a sua atividade profissional no âmbito terapêutico, reabilitativo, reeducativo e/ou preventivo sendo que podem fazê-lo em sessões de um para um e/ou sessões de grupo. São ainda os técnicos-sombra especializados, que atuam principalmente no contexto escolar, bem como participam em sessões conjuntas com Terapia da Fala na aplicação de metodologias de comunicação aumentativa.",
         "sections": [{
             "type": "List",

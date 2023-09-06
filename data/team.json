@@ -4,7 +4,7 @@
         "lastname": "Bernardes",
         "birth_date": "20/04/1993",
         "mainService": "Psicomotricista",
-        "imageUrl": "/assets/images/maria-bernardes.jpeg",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/maria-bernardes.jpeg",
         "description": "A Psicomotricista Maria é licenciada em Reabilitação Psicomotora pela Universidade de Évora em 2014. Tem duas pós-graduações em Cuidados Paliativos e em Neurodesenvolvimento da Criança e do Adolescente.  Durante o seu percurso profissional fez ainda formação em Cuidados de Socorro Pediátricos e Suporte Básico de Vida, metodologia PECS e no Programa “Os Anos Incríveis”. Atualmente, está integrada no 2ª ano de licenciatura em Terapia da Fala pelo Instituto Politécnico de Setúbal.",
         "hobbies": "Como hobbies gosta de cinema, ler, viajar, ir à praia e caminhar com boa companhia. Conta-nos ainda que não gosta de sopa, mas que come uma pequena quantidade todas as semanas.",
         "services": [1, 2, 3],
