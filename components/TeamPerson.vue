@@ -15,10 +15,16 @@
 
             <div class="flex flex-col">
               <p>{{ person.description }}</p>
-  
-              <p class="mt-8">{{ person.hobbies }}</p>
-            </div>
+              
+              <div class="my-8" v-if="person.hobbies.like">
+                <p><span class="mr-2">✅</span> {{ person.hobbies.like }}</p>
+                <p class="mt-2"><span class="mr-2">❌</span> {{ person.hobbies.notLike }}</p>
+                <p class="mt-2"><span class="mr-2">🙋</span> {{ person.hobbies.curiosities }}</p>
+              </div>
 
+              <p v-else class="my-8">{{ person.hobbies }}</p>
+              
+            </div>
           </div>
         </div>
 

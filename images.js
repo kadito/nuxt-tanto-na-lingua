@@ -7,14 +7,19 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "maria-bernardes";
+    const item = "marilia-nicolau";
     
     const imagePath = `./images/team/${item}.jpeg`;
     
     const source = tinify.fromFile(imagePath);
     
-    
-    const fullConverted = source.convert({type:"image/webp"});
+    const fullResized = source.resize({
+        method: "cover",
+        width: 2000,
+        height: 1800
+    });
+
+    const fullConverted = fullResized.convert({type:"image/webp"});
     const fullExtension = await fullConverted.result().extension();
     fullConverted.toFile(`./public/assets/images/${item}.${fullExtension}`);
     

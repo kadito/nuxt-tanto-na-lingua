@@ -21,14 +21,14 @@
     </svg> -->
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-4xl lg:mx-0">
-        <h2 class="text-4xl font-bold tracking-tight sm:text-6xl title">Sobre nós</h2>
-        <p class="mt-6 text-lg leading-8 text">A Tanto na Língua, criada em 2019, possui os serviços de terapia da fala, ensino especializado, psicomotricidade, psicologia educacional, psicologia clínica, terapia ocupacional, musicoterapia, fisioterapia, tutorias e classes de estimulação global. Este projecto surgiu da vontade de maximizar o desenvolvimento global de cada criança, priorizando o trabalho em equipa, centrado na criança e ir de encontro ao ambiente mais natural da criança sem descurar o papel crucial da família e dos professores/educadores nesta evolução. Mais tarde, alargamos e especializamos os nossos serviços para um atendimento especializado à população adulta.</p>
+        <h2 class="text-4xl text-center font-bold tracking-tight sm:text-6xl title">Sobre nós</h2>
+        <p class="mt-6 text-center text-lg leading-8 text">A Tanto na Língua, criada em 2019, possui os serviços de terapia da fala, ensino especializado, psicomotricidade, psicologia educacional, psicologia clínica, terapia ocupacional, musicoterapia, fisioterapia, tutorias e classes de estimulação global. Este projecto surgiu da vontade de maximizar o desenvolvimento global de cada criança, priorizando o trabalho em equipa, centrado na criança e ir de encontro ao ambiente mais natural da criança sem descurar o papel crucial da família e dos professores/educadores nesta evolução. Mais tarde, alargamos e especializamos os nossos serviços para um atendimento especializado à população adulta.</p>
       </div>
       <div class="mx-auto mt-8 max-w-2xl lg:mx-0 lg:max-w-none">
-        <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-3 lg:grid-cols-3">
+        <dl class="mt-14 grid grid-cols-1 gap-8 sm:mt-16 sm:grid-cols-3 lg:grid-cols-3">
           <div v-for="stat in stats" :key="stat.name" class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text">{{ stat.name }}</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text">{{ stat.value }}</dd>
+            <dt class="text-base text-center leading-7 text">{{ stat.name }}</dt>
+            <dd class="text-2xl text-center font-bold leading-9 tracking-tight text">{{ stat.value }}</dd>
           </div>
         </dl>
       </div>

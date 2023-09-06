@@ -18,7 +18,7 @@ const route = useRoute();
 console.log("route: ", route.params)
 
 const person = team.find(p => {
-  return p.firstname.toLowerCase() === route.params.firstname && p.lastname.toLowerCase() === route.params.lastname;
+  return p.id === `${route.params.firstname}-${route.params.lastname}`;
 })
 
 const personServices = services.filter(service => person.services.includes(service.id))

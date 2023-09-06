@@ -1,5 +1,6 @@
 [
     {
+        "id": "maria-bernardes",
         "firstname": "Maria",
         "lastname": "Bernardes",
         "birth_date": "20/04/1993",
@@ -7,7 +8,11 @@
         "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/maria-bernardes-rounded.webp",
         "imageUrl": "/nuxt-tanto-na-lingua/assets/images/maria-bernardes.webp",
         "description": "A Psicomotricista Maria é licenciada em Reabilitação Psicomotora pela Universidade de Évora em 2014. Tem duas pós-graduações em Cuidados Paliativos e em Neurodesenvolvimento da Criança e do Adolescente.  Durante o seu percurso profissional fez ainda formação em Cuidados de Socorro Pediátricos e Suporte Básico de Vida, metodologia PECS e no Programa “Os Anos Incríveis”. Atualmente, está integrada no 2ª ano de licenciatura em Terapia da Fala pelo Instituto Politécnico de Setúbal.",
-        "hobbies": "Como hobbies gosta de cinema, ler, viajar, ir à praia e caminhar com boa companhia. Conta-nos ainda que não gosta de sopa, mas que come uma pequena quantidade todas as semanas.",
+        "hobbies": {
+            "like": "Gosta de cinema, ler, viajar, ir à praia e caminhar com boa companhia.",
+            "notLike": "Não gosta de sopa, mas come uma pequena quantidade todas as semanas.",
+            "curiosities": "Curiosidade - Encontra-se a tirar a segunda licenciatura em Terapia da Fala"
+        },
         "services": [1, 2, 3],
         "skills": [
             {
@@ -28,11 +33,13 @@
         ]
     },
     {
+        "id": "filipe-vieira",
         "firstname": "Filipa",
         "lastname": "Vieira",
         "birth_date": "20/04/1993",
         "mainService": "Psicomotricista",
-        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/maria-bernardes-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/maria-bernardes.webp",
         "description": "A Psicomotricista Marília tem uma licenciatura e mestrado em Reabilitação Psicomotora pela Faculdade de Motricidade Humana, Faculdade de Lisboa desde 2022. Tem ainda formação nível 1 em Babys Signs.",
         "hobbies": "Como hobbies gosta de ler e de praia e não gosta de frio. Conta-nos ainda uma curiosidade, teve um dente de leite até aos 21 anos de idade.",
         "services": [1, 2, 3],
@@ -46,11 +53,77 @@
         ]
     },
     {
+        "id": "marilia-nicolau",
+        "firstname": "Marília",
+        "lastname": "Nicolau",
+        "birth_date": "20/04/1993",
+        "mainService": "Psicomotricista",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/marilia-nicolau-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/marilia-nicolau.webp",
+        "description": "A Psicomotricista Filipa é licenciada em Reabilitação Psicomotora pela Faculdade de Motricidade Humana da Universidade de Lisboa desde 2016, tendo realizado mestrado em Reabilitação Psicomotora na mesma instituição em 2019. Tem formação no Currículo Europeu para a Resiliência (RESCUR) na Promoção da Resiliência em Contexto Escolar.",
+        "hobbies": "Como hobbies gosta de cinema, ler, viajar, ir à praia e caminhar com boa companhia. Conta-nos ainda que não gosta de sopa, mas que come uma pequena quantidade todas as semanas.",
+        "services": [1, 2, 3],
+        "skills": [
+            {
+                "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
+            },
+            {
+                "title": "Técnica-sombra"
+            },
+            {
+                "title": "Intervenção em grupo"
+            }
+        ]
+    },
+    {
+        "id": "ana-caetano",
+        "firstname": "Ana Cristina Caetano",
+        "lastname": "Leocádio",
+        "birth_date": "20/04/1993",
+        "mainService": "Terapeuta da Fala",
+        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "description": "Em 2004, a Terapeuta da Fala Ana concluiu o curso na Escola Superior de Saúde Egas Moniz. Em 2005 iniciou funções numa Equipa Local de Intervenção Precoce no Alentejo, onde esteve durante 18 anos. Ao longo destes anos fez várias formações, nomeadamente no desenvolvimento infantil e perturbações do neurodesenvolvimento.",
+        "hobbies": "A nossa Terapeuta Ana conta-nos que gosta muito de trabalhos manuais, principalmente do processo criativo e de uma boa conversa, bem como de partilhar o que mais sabe. Revela-nos que não gosta de estar “sem fazer nada” e não gosta de areia.",
+        "services": [1, 2, 3],
+        "skills": [
+            {
+                "title": "Intervenção com crianças com perturbações do desenvolvimento e neurodesenvolvimento"
+            },
+            {
+                "title": "Intervenção com crianças dos 0 aos 6 anos"
+            },
+            {
+                "title": "Capacitação parental/familiar"
+            }
+        ]
+    },
+    {
+        "id": "joana-assuncao",
+        "firstname": "Joana",
+        "lastname": "Assunção",
+        "birth_date": "20/04/1993",
+        "mainService": "Terapeuta da Fala",
+        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "description": "A Terapeuta da Fala Joana licenciou-se em Terapia da Fala em 2009 pela Escola Superior de Saúde do Instituto Politécnico de Setúbal. Concluiu o 1º ano de mestrado em (Re)Habilitação Vocal na mesma instituição e pós-graduou-se em Neurodesenvolvimento em Pediatria no Instituto de Ciências da Saúde da Universidade Católica em 2012. Tem um especial gosto por trabalhar com a população infantil, tanto ao nível das perturbações da comunicação, como da linguagem oral e escrita.",
+        "hobbies": "A Joana tem duas filhas com quem passa a maior parte do seu tempo livre. Também gosta de dançar tango argentino nos seus tempos livres.",
+        "services": [1, 2, 3],
+        "skills": [
+            {
+                "title": "Intervenção em perturbações da comunicação, linguagem (oral e escrita) e fala"
+            },
+            {
+                "title": "Intervenção com a população infantil"
+            }
+        ]
+    },
+    {
+        "id": "joana-nogueira",
         "firstname": "Joana",
         "lastname": "Nogueira",
         "birth_date": "20/04/1993",
         "mainService": "Psicomotricista",
-        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/marilia-nicolau-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/marilia-nicolau.webp",
         "description": "A Psicomotricista Joana é licenciada em Reabilitação Psicomotora pela Faculdade de Motricidade Humana e Mestre em Educação Especial – Especialização em Problemas de Aprendizagem e Comportamento pela Escola Superior de Educação de Lisboa. Tem pós-graduação em Neuropsicologia de Intervenção pelo Instituto CRIAP. É formadora profissional pelo INEPI e investiu em outras formações complementares, tais como, método SON-RISE, Pivotal Response Treatment, ABA funcional, PECS, Baby Signs, Práticas parentais positivas, Método Fonomímico de Paula Teles, bem como Suporte Básico de Vida e Primeiros Socorros Pediátricos.",
         "hobbies": "Revela-nos que adora andar descalça e que valoriza muito as pequenas grandes conquistas de cada um. Não gosta de pessoas que só pensam em si e não se sabem colocar no lugar do outro.",
         "services": [1, 2, 3],
@@ -73,11 +146,13 @@
         ]
     },
     {
+        "id": "rita-silva",
         "firstname": "Rita",
         "lastname": "Silva",
         "birth_date": "20/04/1993",
         "mainService": "Psicomotricista",
-        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/maria-bernardes-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/maria-bernardes.webp",
         "description": "A Psicomotricista Rita é licenciada em Reabilitação Psicomotora pela Faculdade de Motricidade Humana - Universidade de Lisboa desde 2016 e tem formação em Equitação Terapêutica, metodologia PECS (Sistema de Comunicação por Troca de Imagens) e Babysigns.",
         "hobbies": "Conta-nos que gosta de sorrisos fáceis e gargalhadas de coração. Confidencia que gosta de praticar desporto, tendo frequentado três desportos diferentes durante o mesmo ano. Gosta também de trabalhos manuais e de viajar. Não gosta de falta de humildade.",
         "services": [1, 2, 3],
@@ -100,11 +175,13 @@
         ]
     },
     {
+        "id": "catarina-rodrigues",
         "firstname": "Catarina",
         "lastname": "Rodrigues",
         "birth_date": "20/04/1993",
         "mainService": "Terapeuta da Fala",
-        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
         "description": "A Terapeuta da Fala Catarina licenciou-se em Terapia da Fala em 2012 pela Escola de Saúde Atlântica. Especializou-se em Motricidade Oro facial e apresenta várias formações nas áreas da Fala, Comunicação e Linguagem Oral e Escrita.",
         "hobbies": "Gosta de ler, idealmente perto do mar ou lago, acompanhada de chá e/ou café. Não gosta de tomar o pequeno-almoço sozinha e com tempo contado.",
         "services": [1, 2, 3],
@@ -124,11 +201,13 @@
         ]
     },
     {
+        "id": "catarina-sousa",
         "firstname": "Catarina",
         "lastname": "Sousa",
         "birth_date": "20/04/1993",
         "mainService": "Terapeuta da Fala",
-        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
         "description": "A Terapeuta da Fala Catarina é licenciada em Terapia da Fala desde 2011 pela Escola de Saúde Atlântica, tendo também formação em Sigmatismos (laterais e anteriores) e Método Habiles.",
         "hobbies": "Gosta de praia, de estar com a família e não resiste a gomas. Não gosta de favas, milho, cogumelos e mentiras.",
         "services": [1, 2, 3],
@@ -142,11 +221,13 @@
         ]
     },
     {
+        "id": "margarida-ribeiro",
         "firstname": "Margarida",
         "lastname": "Ribeiro",
         "birth_date": "20/04/1993",
         "mainService": "Terapeuta da Fala",
-        "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
         "description": "A Terapeuta da Fala Margarida é licenciada em Terapia da Fala desde 2020 pela Escola Superior de Saúde do Instituto Politécnico de Setúbal, tendo também formação em perturbações fonológicas, alterações de fala de origem miofuncional e dificuldades na leitura e escrita.",
         "hobbies": "Revela-nos que gosta de gatos. Não gosta de pudim.",
         "services": [1, 2, 3],
