@@ -242,5 +242,102 @@
                 "title": "Intervenção em idade pré-escolar e escolar"
             }
         ]
+    },
+    {
+        "id": "joana-silva",
+        "firstname": "Joana Tavares Da",
+        "lastname": "Silva",
+        "birth_date": "20/04/1993",
+        "mainService": "Psicóloga",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
+        "description": "A Psicóloga Joana é Mestre em Psicologia Clínica desde 2014 pela Universidade Lusíada de Lisboa e conta com uma especialização em Interpretação e Aplicação Clínica da Avaliação Psicológica. A Joana apresenta outras formações complementares, tais como, Orientação Vocacional, Intervenção Psicológica em Situações de Divórcio, Hiperatividade com Défice de Atenção: Avaliação e Intervenção, entre outras. É membro efetivo da Ordem dos Psicólogos Portugueses.",
+        "hobbies": "A Joana adora ler e não resiste a coca-cola e gomas ácidas. Confidencia que não gosta de cozinhar.",
+        "services": [1, 2, 3],
+        "skills": [
+            {
+                "title": "Avaliação psicológica"
+            },
+            {
+                "title": "Intervenção nas Perturbações do Desenvolvimento, Perturbações de Aprendizagem, Perturbações do Comportamento e Alterações Psicoafetivas"
+            },
+            {
+                "title": "Acompanhamento psicológico e psicoeducacional"
+            },
+            {
+                "title": "Intervenção Precoce"
+            },
+            {
+                "title": "Orientação Parental"
+            },
+            {
+                "title": "Orientação Escolar e Vocacional"
+            }
+        ]
+    },
+    {
+        "id": "raquel-goncalves",
+        "firstname": "Raquel Gonçalves",
+        "lastname": "Silva",
+        "birth_date": "20/04/1993",
+        "mainService": "Psicóloga",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
+        "description": "A Psicóloga Raquel é licenciada pelo Instituto Universitário de Lisboa (ISCTE) em Psicologia e Mestre em Psicologia Comunitária e Proteção de Menores, formação académica que completou com o curso de especialização avançada em Psicologia Escolar e Educacional. Durante o seu percurso profissional ainda fez cursos de curta duração relacionados com Perturbações de Aprendizagem Específica (dislexia) e avaliação psicológica de caráter projetivo.",
+        "hobbies": "Como hobbies gosta de ler, fazer desporto e cozinhar. Não gosta de frio e trânsito.",
+        "services": [1, 2, 3],
+        "skills": []
+    },
+    {
+        "id": "filipa-sousa",
+        "firstname": "Filipa sousa",
+        "lastname": "Silva",
+        "birth_date": "20/04/1993",
+        "mainService": "Terapeuta Ocupacional",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
+        "description": "A Filipa é licenciada desde 2022 em Terapia Ocupacional pela Escola Superior de Saúde do Alcoitão e tem experiência em Hospitais e Clínicas tanto de saúde mental como de pedopsiquiatria.",
+        "hobbies": "Como curiosidades conta-nos que não gosta de desmarcar planos e que adora viajar. Revela-nos ainda que paralelamente ao seu trabalho como Terapeuta Ocupacional, tenho uma empresa de sustentabilidade ambiental.",
+        "services": [1, 2, 3],
+        "skills": []
+    },
+    {
+        "id": "ana-lapa",
+        "firstname": "Ana",
+        "lastname": "Lapa",
+        "birth_date": "20/04/1993",
+        "mainService": "Musicoterapeuta",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
+        "description": "A musicoterapeuta Ana é licenciada em Estudos Artísticos, variante de Música, pela Faculdade de Letras da Universidade de Coimbra e mestre em Musicoterapia pela Universidade Lusíada de Lisboa. Completou o 5ª grau de piano e o curso de complementar de canto no Conservatório Regional de Coimbra. É musicoterapeuta certificada pela Associação Portuguesa de musicoterapia desde março de 2023. Em 2018/2019 participou num projeto de investigação em Musicoterapia, desenvolvido pela Universidade Lusíada de Lisboa, intervindo em crianças e jovens institucionalizados. É membro da direção da Associação Portuguesa de Musicoterapia (APMT) desde 2017, e vice-presidente desde dezembro de 2022.",
+        "hobbies": "Conta-nos que gosta do cheiro da chuva que cai sobre terra seca e não gosta de falta de verdade. Como curiosidade revela que a sua avó a chama de “Niducas cantadeira” porque andava sempre a cantarolar por todo o lado.",
+        "services": [1, 2, 3],
+        "skills": []
+    },
+    {
+        "id": "cristiana-gameiro",
+        "firstname": "Cristiana",
+        "lastname": "Gameiro",
+        "birth_date": "20/04/1993",
+        "mainService": "Fisioterapeuta",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
+        "description": "TO FIX",
+        "hobbies": "Além do seu compromisso com a fisioterapia, a Cristiana descreve-se como uma amante da natureza e de atividades ao ar livre. Diz que não está a exercer, está a explorar trilhos nas serras ou a desfrutar das ondas na praia. O inverno pode não ser a sua estação preferida, assim como as montanhas russas, um medo de miúda, mas que a paixão pelo movimento e aventura permanece constante.",
+        "services": [1, 2, 3],
+        "skills": []
+    },
+    {
+        "id": "vivian-vidinhas",
+        "firstname": "Vivian",
+        "lastname": "Vidinhas",
+        "birth_date": "20/04/1993",
+        "mainService": "Responsável pela faturação e marketing",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues-rounded.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/catarina-rodrigues.webp",
+        "description": "A Vivian é licenciada em Comunicação Social - Jornalismo e Ciências Sociais. Tem ainda uma pós-graduação em Social Brands pela Universidade Católica Portuguesa.",
+        "hobbies": "Como hobbies gosta de ler, ver novelas e séries, ir ao cinema, jantar em um bom restaurante e viajar.",
+        "services": [1, 2, 3],
+        "skills": []
     }
 ]
