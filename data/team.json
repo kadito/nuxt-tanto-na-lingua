@@ -1,4 +1,22 @@
 [
+
+    {
+        "id": "silvia-pinto",
+        "firstname": "Sílvia",
+        "lastname": "Pinto",
+        "birth_date": "20/04/1993",
+        "mainService": "Terapeuta da Fala",
+        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/avatar.png",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/avatar.png",
+        "description": "A terapeuta da Fala Sílvia licenciou-se em Terapia da Fala em 2009 pela Escola de Saúde do Instituto Politécnico de Setúbal e durante o seu percurso ainda realizou duas pós-graduações, uma em Neuropsicologia de Intervenção e outra em Sistemas Aumentativos e Alternativos da Comunicação – da Infância à Idade Adulta. A par destas graduações ainda complementou o seu percurso com formações complementares em PECS, PODD, Conselheira de Aleitamento Materno, Língua Gestual Portuguesa, Cued Seech e Disfagia. Para além da sua formação e percurso profissional, a Sílvia é a fundadora e coordenadora do projeto Tanto na Língua.",
+        "hobbies": {
+            "like": "Gosta de jogar ténis e de dançar",
+            "notLike": "Não gosta de queijo.",
+            "curiosities": "Fundadora e coordenadora do projeto Tanto na Língua"
+        },
+        "services": [1, 2, 3],
+        "skills": []
+    },
     {
         "id": "maria-bernardes",
         "firstname": "Maria",
@@ -33,7 +51,7 @@
         ]
     },
     {
-        "id": "filipe-vieira",
+        "id": "filipa-vieira",
         "firstname": "Filipa",
         "lastname": "Vieira",
         "birth_date": "20/04/1993",
@@ -292,7 +310,7 @@
     },
     {
         "id": "filipa-sousa",
-        "firstname": "Filipa sousa",
+        "firstname": "Filipa Sousa",
         "lastname": "Silva",
         "birth_date": "20/04/1993",
         "mainService": "Terapeuta Ocupacional",
@@ -342,23 +360,6 @@
             "like": "Gosta de Tênis e do Vitória Sporting Clube",
             "notLike": "Não gosta de iscas.",
             "curiosities": ""
-        },
-        "services": [1, 2, 3],
-        "skills": []
-    },
-    {
-        "id": "silvia-pinto",
-        "firstname": "Sílvia",
-        "lastname": "Pinto",
-        "birth_date": "20/04/1993",
-        "mainService": "Terapeuta da Fala",
-        "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/avatar.png",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/avatar.png",
-        "description": "A terapeuta da Fala Sílvia licenciou-se em Terapia da Fala em 2009 pela Escola de Saúde do Instituto Politécnico de Setúbal e durante o seu percurso ainda realizou duas pós-graduações, uma em Neuropsicologia de Intervenção e outra em Sistemas Aumentativos e Alternativos da Comunicação – da Infância à Idade Adulta. A par destas graduações ainda complementou o seu percurso com formações complementares em PECS, PODD, Conselheira de Aleitamento Materno, Língua Gestual Portuguesa, Cued Seech e Disfagia. Para além da sua formação e percurso profissional, a Sílvia é a fundadora e coordenadora do projeto Tanto na Língua.",
-        "hobbies": {
-            "like": "Gosta de jogar ténis e de dançar",
-            "notLike": "Não gosta de queijo.",
-            "curiosities": "Fundadora e coordenadora do projeto Tanto na Língua"
         },
         "services": [1, 2, 3],
         "skills": []

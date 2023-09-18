@@ -17,9 +17,9 @@
               <p>{{ person.description }}</p>
               
               <div class="my-8" v-if="person.hobbies.like">
-                <p><span class="mr-2">✅</span> {{ person.hobbies.like }}</p>
-                <p class="mt-2"><span class="mr-2">❌</span> {{ person.hobbies.notLike }}</p>
-                <p class="mt-2"><span class="mr-2">🙋</span> {{ person.hobbies.curiosities }}</p>
+                <p v-if="person.hobbies.like"><span class="mr-2">✅</span> {{ person.hobbies.like }}</p>
+                <p v-if="person.hobbies.notLike" class="mt-2"><span class="mr-2">❌</span> {{ person.hobbies.notLike }}</p>
+                <p v-if="person.hobbies.curiosities" class="mt-2"><span class="mr-2">🙋</span> {{ person.hobbies.curiosities }}</p>
               </div>
 
               <p v-else class="my-8">{{ person.hobbies }}</p>
