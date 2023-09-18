@@ -33,7 +33,7 @@
               </svg>
             </div>
             <h2 class="text-3xl font-bold tracking-tight text-gray-900">Entra em Contacto Conosco</h2>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Tens alguma dúvida? Queres agendar uma consulta ou rastreio? Entra em contacto connosco.</p>
             <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div class="flex gap-x-4">
                 <dt class="flex-none">

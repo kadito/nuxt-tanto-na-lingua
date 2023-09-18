@@ -59,7 +59,7 @@
         "id": 4,
         "title": "TERAPEUTA SOMBRA",
         "modalTitle": "O que é o Terapeuta Sombra?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/musicoterapia.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/balloon.webp",
         "description": "O Terapeuta Sombra é um programa no qual existe um(a) terapeuta que acompanha uma criança no contexto de sala regular (pré-escolar, 1º ciclo ou 2º ciclo), com o objetivo de capacitar a criança e os adultos presentes naquele contexto para o aumento da autonomia no ambiente escolar.",
         "sections": [{
             "type": "FAQ",
@@ -125,5 +125,37 @@
                 }
             ]
         }]
+    },
+    {
+        "id": 6,
+        "title": "MUSICOTERAPIA",
+        "modalTitle": "",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/musicoterapia.webp",
+        "description": "",
+        "sections": []
+    },
+    {
+        "id": 7,
+        "title": "ENSINO ESPECIALIZADO",
+        "modalTitle": "",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/balloon.webp",
+        "description": "",
+        "sections": []
+    },
+    {
+        "id": 8,
+        "title": "Fisioterapia",
+        "modalTitle": "",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/balloon.webp",
+        "description": "",
+        "sections": []
+    },
+    {
+        "id": 9,
+        "title": "ACOMPANHAMENTO EDUCACIONAL E VOCACIONAL",
+        "modalTitle": "",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/balloon.webp",
+        "description": "",
+        "sections": []
     }
 ]
