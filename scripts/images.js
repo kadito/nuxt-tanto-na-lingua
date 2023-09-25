@@ -7,9 +7,9 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "marilia-nicolau";
+    const item = "raquel-goncalves";
     
-    const imagePath = `./images/team/${item}.jpeg`;
+    const imagePath = `../images/team/${item}.jpeg`;
     
     const source = tinify.fromFile(imagePath);
     
@@ -21,7 +21,7 @@ const main = async () => {
 
     const fullConverted = fullResized.convert({type:"image/webp"});
     const fullExtension = await fullConverted.result().extension();
-    fullConverted.toFile(`./public/assets/images/${item}.${fullExtension}`);
+    fullConverted.toFile(`../public/assets/images/${item}.${fullExtension}`);
     
     const resized = source.resize({
         method: "cover",
@@ -32,7 +32,7 @@ const main = async () => {
     const converted = resized.convert({type:"image/webp"});
     const extension = await converted.result().extension();
     
-    converted.toFile(`./public/assets/images/${item}-rounded.${extension}`);
+    converted.toFile(`../public/assets/images/${item}-rounded.${extension}`);
 }
 
 main()

@@ -2,9 +2,10 @@
   <header class="bg-white">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-5 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
-        <a href="/nuxt-tanto-na-lingua" class="-m-1.5 p-1.5">
-          <span class="sr-only">Tanto Na Lingua</span>
-          <img class="h-8 w-auto" :src="'/nuxt-tanto-na-lingua/assets/images/logo.png'" alt="" />
+        <a href="/nuxt-tanto-na-lingua">
+          <!-- <span class="sr-only">Tanto Na Lingua</span> --> 
+          <img class="h-8 w-auto object-fill" :src="'/nuxt-tanto-na-lingua/assets/logo.svg'" alt="" /> 
+          <!-- <component :is="logo" class="h-6 w-6" aria-hidden="true" /> -->
         </a>
       </div>
       <div class="flex lg:hidden">
@@ -24,6 +25,8 @@
   import { ref } from 'vue'
   import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
+  
+
   const navigation = [
     { name: 'Sobre Nos', href: '#sobre-nos' },
     { name: 'Equipa', href: '#equipa' },
@@ -31,7 +34,7 @@
     { name: 'Contactos', href: '#contactos' },
   ]
 
-  const mobileMenuOpen = ref(false)
+  const mobileMenuOpen = ref(false);
 </script>
 
 <style scoped>

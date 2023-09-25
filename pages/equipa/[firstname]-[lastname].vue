@@ -9,13 +9,14 @@
 </template>
 
 <script setup>
-import team from '../../data/team.json';
 import services from '../../data/services.json';
-import { provide } from "vue";
+import { provide, inject } from "vue";
 
 const route = useRoute();
 
 console.log("route: ", route.params)
+
+const team = inject('team');
 
 const person = team.find(p => {
   return p.id === `${route.params.firstname}-${route.params.lastname}`;

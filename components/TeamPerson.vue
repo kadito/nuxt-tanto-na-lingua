@@ -9,7 +9,7 @@
         <div class="flex justify-center justify-items-center">
           <div class="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
             <div>
-              <img class="aspect-[3/2] w-full rounded-2xl object-scale-down" :src="person.imageUrl" alt="" />
+              <img class="aspect-[3/2] w-full rounded-2xl" :src="person.imageUrl" alt="" />
             <!-- <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p> -->
             </div>
 
