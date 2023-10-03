@@ -7,9 +7,9 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "balloon";
+    const item = "terapeuta_sombra";
     
-    const imagePath = `../images/${item}.webp`;
+    const imagePath = `../images/services/${item}.jpeg`;
     
     const source = tinify.fromFile(imagePath);
     
