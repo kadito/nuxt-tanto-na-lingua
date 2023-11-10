@@ -7,9 +7,9 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "terapeuta_sombra";
+    const item = "musicoterapia_white_background";
     
-    const imagePath = `../images/services/${item}.jpeg`;
+    const imagePath = `../images/services/${item}.png`;
     
     const source = tinify.fromFile(imagePath);
     

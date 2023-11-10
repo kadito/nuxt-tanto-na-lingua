@@ -1,9 +1,9 @@
 <template>
-    <div class="mt-8">
+    <div class="mt-8" v-if="section.title">
         <DialogTitle as="h4" class="text-3xl font-bold leading-6 text-gray-900">{{ section.title }}</DialogTitle>
     </div>
 
-    <div class="mt-8 mb-2">
+    <div class="mt-8 mb-2" v-if="section.description">
         <p class="text-base text-gray-900">{{ section.description }}</p>
     </div>
 

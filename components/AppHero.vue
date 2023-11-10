@@ -1,12 +1,10 @@
 <template>
   <div class="isolate hero-image">
     <main>
-      <div class="relative px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div class="text-center">
-            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Tanto Na Língua</h1>
-            <p class="mt-6 text-3xl leading-8 text-gray-600">Servicos especializados de Saúde e Educação</p>
-          </div>
+      <div class="relative p-6 lg:p-8">
+        <div class="flex flex-col justify-between" style="height: 500px">
+            <h1 class="text-end text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Tanto Na Língua</h1>
+            <p class="text-start  mt-6 text-3xl leading-8 text-gray-600">Servicos especializados de Saúde e Educação</p>
         </div>
         <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
           <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
@@ -30,10 +28,10 @@
 
 <style>
 .hero-image {
-  background-image: url("../public/assets/images/header_image.webp");
+  background-image: url("../public/assets/images/capa.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fill;
   position: relative;
 }
 </style>
