@@ -7,7 +7,7 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "musicoterapia_white_background";
+    const item = "terapia_da_fala";
     
     const imagePath = `../images/services/${item}.png`;
     

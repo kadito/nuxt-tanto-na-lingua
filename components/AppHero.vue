@@ -1,7 +1,7 @@
 <template>
   <div class="isolate hero-image">
     <main>
-      <div class="relative p-6 lg:p-8">
+      <div class="relative p-10 lg:p-12">
         <div class="flex flex-col justify-between" style="height: 500px">
             <h1 class="text-end text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Tanto Na Língua</h1>
             <p class="text-start  mt-6 text-3xl leading-8 text-gray-600">Servicos especializados de Saúde e Educação</p>
