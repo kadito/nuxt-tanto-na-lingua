@@ -3,7 +3,7 @@
     <div class="px-6 lg:px-8">
       <div class="lg:mx-0">
         <h2 class="col-12 text-4xl text-center font-bold tracking-tight sm:text-6xl title">A Nossa Equipa</h2>
-        <p class="mt-6 text-center text-lg leading-8 text">A nossa equipa é constituída por um corpo multidisciplinar apaixonado por aquilo que faz. Vamos conhecê-lo?</p>
+        <p class="mt-6 text-center text-lg leading-8 text">A nossa equipa é constituída por um corpo multidisciplinar apaixonado por aquilo que faz. Vamos conhecê-la?</p>
       </div>
       <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-y-16 gap-x-8 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
         <li v-for="person in orderedTeam" :key="person.id">

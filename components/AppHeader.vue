@@ -4,7 +4,7 @@
       <div class="flex lg:flex-1">
         <a href="/nuxt-tanto-na-lingua">
           <!-- <span class="sr-only">Tanto Na Lingua</span> --> 
-          <img class="h-8 w-auto object-fill" :src="'/nuxt-tanto-na-lingua/assets/logo.svg'" alt="" /> 
+          <img class="h-10 w-auto object-fill" :src="'/nuxt-tanto-na-lingua/assets/logo.svg'" alt="" /> 
           <!-- <component :is="logo" class="h-6 w-6" aria-hidden="true" /> -->
         </a>
       </div>

@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
       <div class="mx-auto max-w-2xl">
         <h2 class="col-12 text-4xl text-center font-bold tracking-tight sm:text-6xl">{{ title }}</h2>
-        <p class="mt-4 text-center text-lg leading-8 text-gray-400">We’re a dynamic group of individuals who are passionate about what we do.</p>
+        <p class="mt-4 text-center text-lg leading-8 text-gray-400">Aqui poderá encontrar diversos serviços individualizados ou em grupo.</p>
       </div>
       <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
         <li v-for="service in services" :key="service.name" class="rounded-2xl px-8 py-10 cursor-pointer" @click="openServiceModal(service.id)">
