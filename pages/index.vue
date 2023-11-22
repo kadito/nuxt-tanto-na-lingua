@@ -1,5 +1,6 @@
 <template>
   <AppHero/>
+  <!-- <AppHeader2/> -->
 
   <AboutUs id="sobre-nos" />
 

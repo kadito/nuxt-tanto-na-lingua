@@ -7,7 +7,7 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "terapia_da_fala";
+    const item = "fisioterapia";
     
     const imagePath = `../images/services/${item}.png`;
     

@@ -1,23 +1,10 @@
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
+ 
 <template>
     <div class="relative isolate bg-white">
       <!-- mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 -->
-      <div class="mx-auto flex">
-        <div class="relative px-6 pt-20 pb-8 sm:pt-20 lg:px-8">
-          <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+      <div class="flex">
+        <div class="relative px-6 pt-20 pb-8 sm:pt-20 lg:px-82" style="width: 100%">
+          <div class="lg:mx-0">
             <div class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2">
               <svg class="absolute inset-0 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
                 <defs>

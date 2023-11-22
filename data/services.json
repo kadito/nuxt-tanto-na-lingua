@@ -138,7 +138,7 @@
         "id": 7,
         "title": "ENSINO ESPECIALIZADO",
         "modalTitle": "",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/balloon.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/ensino_especializado.webp",
         "description": "",
         "sections": []
     },
@@ -146,7 +146,7 @@
         "id": 8,
         "title": "FISIOTERAPIA",
         "modalTitle": "",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/criança_fisioterapia.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/fisioterapia.webp",
         "description": "",
         "sections": []
     },
@@ -172,7 +172,7 @@
         "id": 10,
         "title": "PSICOLOGIA",
         "modalTitle": "O que é a psicologia?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/psicologia_without_background.webp",
+        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/psicologia.webp",
         "description": "Psicologia é a ciência que estuda os processos mentais (perceção, atenção, memória, pensamento), o comportamento do ser humano e as suas interações com o ambiente físico e social. A consulta de psicologia da criança e do adolescente foca-se no desenvolvimento da criança, tendo em conta o seu meio familiar, social e escolar. Na intervenção envolvemos os pais e educadores, fornecendo-lhes estratégias e novas competências que permitam a sua participação na resolução dos problemas da criança/adolescente.",
         "sections": [{
             "type": "List",
