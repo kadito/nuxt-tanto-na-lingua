@@ -9,6 +9,8 @@
 <script lang="ts" setup>
 import './public/css/tailwind.css'
 import { provide } from 'vue';
+// import { useSeoMeta  } from 'nuxt'
+
 
 const team = [
   {
@@ -442,6 +444,23 @@ const team = [
     "description": "",
     "hobbies": {
       "like": "",
+      "notLike": "",
+      "curiosities": ""
+    },
+    "services": [1, 2, 3],
+    "skills": []
+  },
+  {
+    "id": "patricia-alves",
+    "firstname": "Patrícia",
+    "lastname": "Alves",
+    "birth_date": "20/04/1993",
+    "mainService": "Terapeuta Ocupacional",
+    "roundedImageUrl": "/nuxt-tanto-na-lingua/assets/images/avatar.png",
+    "imageUrl": "/nuxt-tanto-na-lingua/assets/images/avatar.png",
+    "description": "A Terapeuta Ocupacional Patrícia é licenciada em Terapia Ocupacional desde 2014 pela Escola Superior de Saúde do Alcoitão e pós-graduada em Integração Sensorial, desde 2019, pela Escola Superior de Tecnologia da Saúde de Coimbra em parceria com a 7Senses. Desde a licenciatura trabalhou exclusivamente na área da pediatria, quer em contexto escolar, domiciliar e clínico, com crianças com diversas problemáticas, tais como atraso global de desenvolvimento, multideficiência, perturbações do espectro do autismo, perturbações da hiperatividade e défice de atenção, problemas de integração sensorial, problemas cognitivos, cegueira, entre outros. Ao longo dos anos, tem vindo a participar em várias formações relativas à atuação do terapeuta ocupacional no contexto escolar, bem como em formações mais específicas como escrita manual, ideação e práxis, integração sensorial na alimentação e Toileting.",
+    "hobbies": {
+      "like": "Gosta de estar com a família e passear ao ar livre. Detesta ambientes com muita gente e confusão.",
       "notLike": "",
       "curiosities": ""
     },
