@@ -131,7 +131,7 @@
         "title": "MUSICOTERAPIA",
         "modalTitle": "",
         "imageUrl": "/nuxt-tanto-na-lingua/assets/images/musicoterapia.webp",
-        "description": "",
+        "description": null,
         "sections": []
     },
     {
@@ -139,7 +139,7 @@
         "title": "ENSINO ESPECIALIZADO",
         "modalTitle": "",
         "imageUrl": "/nuxt-tanto-na-lingua/assets/images/ensino_especializado.webp",
-        "description": "",
+        "description": null,
         "sections": []
     },
     {
@@ -147,7 +147,7 @@
         "title": "FISIOTERAPIA",
         "modalTitle": "",
         "imageUrl": "/nuxt-tanto-na-lingua/assets/images/fisioterapia.webp",
-        "description": "",
+        "description": null,
         "sections": []
     },
     {
