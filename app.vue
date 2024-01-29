@@ -28,7 +28,7 @@ const team = [
       "notLike": "Não gosta de queijo.",
       "curiosities": "Fundadora e coordenadora do projeto Tanto na Língua"
     },
-    "services": [1, 2, 3],
+    "services": [1],
     "skills": []
   },
   {
@@ -45,7 +45,7 @@ const team = [
       "notLike": "Não gosta de sopa, mas come uma pequena quantidade todas as semanas.",
       "curiosities": "Curiosidade - Encontra-se a tirar a segunda licenciatura em Terapia da Fala"
     },
-    "services": [1, 2, 3],
+    "services": [2, 4],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
@@ -78,7 +78,7 @@ const team = [
       "notLike": "Não gosta de multidões nem de ovos mexidos.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [2, 3, 4],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
@@ -102,7 +102,7 @@ const team = [
       "notLike": "Não gosta de frio.",
       "curiosities": "Teve um dente de leite até aos 21 anos de idade."
     },
-    "services": [1, 2, 3],
+    "services": [2, 4],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
@@ -129,7 +129,7 @@ const team = [
       "notLike": "Não gosta de estar “sem fazer nada” e não gosta de areia.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [1],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e neurodesenvolvimento"
@@ -156,7 +156,7 @@ const team = [
       "notLike": null,
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [],
     "skills": [
       {
         "title": "Intervenção em perturbações da comunicação, linguagem (oral e escrita) e fala"
@@ -180,7 +180,7 @@ const team = [
       "notLike": "Não gosta de pessoas que só pensam em si e não se sabem colocar no lugar do outro.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [2],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
@@ -213,7 +213,7 @@ const team = [
       "notLike": "Não gosta de falta de humildade.",
       "curiosities": "Já frequentaou três desportos diferentes durante o mesmo ano."
     },
-    "services": [1, 2, 3],
+    "services": [2],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
@@ -246,7 +246,7 @@ const team = [
       "notLike": "Não gosta de tomar o pequeno-almoço sozinha e com tempo contado.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [1],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
@@ -276,7 +276,7 @@ const team = [
       "notLike": "Não gosta de favas, milho, cogumelos e mentiras.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [1],
     "skills": [
       {
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
@@ -300,7 +300,7 @@ const team = [
       "notLike": "Não gosta de pudim.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [1],
     "skills": [
       {
         "title": "Prevenção, avaliação e intervenção em perturbações da comunicação"
@@ -327,7 +327,7 @@ const team = [
       "notLike": "Não gosta de coca-cola, gomas ácidas e de cozinhar.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [9, 10],
     "skills": [
       {
         "title": "Avaliação psicológica"
@@ -363,7 +363,7 @@ const team = [
       "notLike": "Não gosta de frio e trânsito.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [3, 10],
     "skills": []
   },
   {
@@ -380,7 +380,7 @@ const team = [
       "notLike": "Não gosta de falta de verdade.",
       "curiosities": "A sua avó a chama de “Niducas cantadeira” porque andava sempre a cantarolar por todo o lado."
     },
-    "services": [1, 2, 3],
+    "services": [6],
     "skills": []
   },
   {
@@ -397,7 +397,7 @@ const team = [
       "notLike": "Não gosta do inverno , assim como de montanhas russas., um medo de miúda, mas que a paixão pelo movimento e aventura permanece constante.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [],
     "skills": []
   },
   {
@@ -414,7 +414,7 @@ const team = [
       "notLike": "Não gosta de iscas.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [1],
     "skills": []
   },
   {
@@ -431,7 +431,7 @@ const team = [
       "notLike": "Não gosta de melancia nem de diospiros.",
       "curiosities": null
     },
-    "services": [1, 2, 3],
+    "services": [1],
     "skills": []
   },
   {
@@ -448,7 +448,7 @@ const team = [
       "notLike": "",
       "curiosities": ""
     },
-    "services": [1, 2, 3],
+    "services": [7],
     "skills": []
   },
   {
@@ -465,7 +465,7 @@ const team = [
       "notLike": "",
       "curiosities": ""
     },
-    "services": [1, 2, 3],
+    "services": [5],
     "skills": []
   }
 ]
