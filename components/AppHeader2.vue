@@ -4,8 +4,8 @@
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <a href="/nuxt-tanto-na-lingua">
-              <img class="h-10 w-auto object-fill" :src="'/nuxt-tanto-na-lingua/assets/logo.svg'" alt="" /> 
+            <a href="">
+              <img class="h-10 w-auto object-fill" :src="'/assets/logo.svg'" alt="" /> 
             </a>
           </div>
         </div>

@@ -27,7 +27,7 @@
   orderedTeam.push(...team.sort((a, b) => a.firstname.localeCompare(b.firstname)));
 
   const personUrl = (person) => {
-    return `/nuxt-tanto-na-lingua/equipa/${person.id}`
+    return `/equipa/${person.id}`
   };
 </script>
 

@@ -3,7 +3,7 @@
         "id": 1,
         "title": "TERAPIA DA FALA",
         "modalTitle": "O que é a Terapia da Fala?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/terapia_da_fala.webp",
+        "imageUrl": "/assets/images/terapia_da_fala.webp",
         "description": "A intervenção em Terapia da Fala tem como objetivo a prevenção, avaliação, intervenção e estudo científico das perturbações da comunicação humana, englobando não só todas as funções associadas à compreensão e expressão da linguagem oral e escrita, mas também outras formas de comunicação não verbal. O Terapeuta da Fala intervém, ainda, ao nível da deglutição (passagem segura de alimentos e bebidas através da orofaringe de forma a garantir uma nutrição adequada). O Terapeuta da Fala avalia e intervém em indivíduos de todas as idades, desde recém-nascidos a idosos, tendo por objetivo geral otimizar as capacidades de comunicação e/ou deglutição do indivíduo, melhorando, assim, a sua qualidade de vida (ASHA, 2007).",
         "sections": [{
             "type": "List",
@@ -27,7 +27,7 @@
         "id": 2,
         "title": "PSICOMOTRICIDADE",
         "modalTitle": "O que é a psicomotricidade?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/psicomotricidade.webp",
+        "imageUrl": "/assets/images/psicomotricidade.webp",
         "description": "A intervenção em Psicomotricidade tem uma visão global do ser humano e vem proporcionar à criança, jovem adulto ou idoso o máximo de experiências corporais e verbais, utilizando vários materiais, modelos de intervenção e técnicas específicas para cada caso, atuando em diferentes contextos (casa, escola, etc). A Psicomotricidade é uma terapia de medição corporal interligado sempre a parte socio-emocional e cognitiva do indivíduo. Os técnicos podem exercer a sua atividade profissional no âmbito terapêutico, reabilitativo, reeducativo e/ou preventivo sendo que podem fazê-lo em sessões de um para um e/ou sessões de grupo. São ainda os técnicos-sombra especializados, que atuam principalmente no contexto escolar, bem como participam em sessões conjuntas com Terapia da Fala na aplicação de metodologias de comunicação aumentativa.",
         "sections": [{
             "type": "List",
@@ -51,7 +51,7 @@
         "id": 3,
         "title": "CLASSES DE ESTIMULACÃO GLOBAL",
         "modalTitle": "O que são as classes de estimulação global?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/classes_estimulacao.webp",
+        "imageUrl": "/assets/images/classes_estimulacao.webp",
         "description": "As classes de estimulação são um programa direcionado para escolas no qual se intervém na prevenção nas áreas de psicologia, psicomotricidade e terapia da fala. Em grupos homogéneos, no máximo até 10 crianças, estas estarão todas as semanas durante 45 minutos, de forma rotativa com uma psicóloga, uma terapeuta da fala e uma psicomotricista. Desta forma de 3 em 3 semanas repetem a terapeuta. Como objetivo principal, este programa permite estimular o desenvolvimento individual das crianças com um foco terapêutico e atento para alguma dificuldade.",
         "sections": []
     },
@@ -59,7 +59,7 @@
         "id": 4,
         "title": "TERAPEUTA SOMBRA",
         "modalTitle": "O que é o Terapeuta Sombra?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/terapauta_sombra.webp",
+        "imageUrl": "/assets/images/terapauta_sombra.webp",
         "description": "O Terapeuta Sombra é um programa no qual existe um(a) terapeuta que acompanha uma criança no contexto de sala regular (pré-escolar, 1º ciclo ou 2º ciclo), com o objetivo de capacitar a criança e os adultos presentes naquele contexto para o aumento da autonomia no ambiente escolar.",
         "sections": [{
             "type": "FAQ",
@@ -106,7 +106,7 @@
         "id": 5,
         "title": "TERAPIA OCUPACIONAL",
         "modalTitle": "O que é a Terapia Ocupacional?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/terapia_ocupacional.webp",
+        "imageUrl": "/assets/images/terapia_ocupacional.webp",
         "description": "A Terapia Ocupacional é uma ciência da área da saúde que promove o desempenho ocupacional de pessoas em qualquer faixa etária. Habilitando a participação satisfatória em ocupações significativas do seu dia-a-dia. Ao conseguir envolver-se em ocupações significativas o ser Humano aumenta a qualidade de vida, bem-estar e autonomia. O Terapeuta Ocupacional é um profissional de saúde que ajuda pais/cuidadores/professores a obterem estratégias e, caso necessário, adaptações nos contextos, de modo a facilitar/melhorar o desempenho ocupacional da criança, promovendo, assim, a sua autonomia, bem-estar e qualidade de vida.",
         "sections": [{
             "type": "FAQ",
@@ -130,7 +130,7 @@
         "id": 6,
         "title": "MUSICOTERAPIA",
         "modalTitle": "",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/musicoterapia.webp",
+        "imageUrl": "/assets/images/musicoterapia.webp",
         "description": null,
         "sections": []
     },
@@ -138,7 +138,7 @@
         "id": 7,
         "title": "ENSINO ESPECIALIZADO",
         "modalTitle": "",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/ensino_especializado.webp",
+        "imageUrl": "/assets/images/ensino_especializado.webp",
         "description": null,
         "sections": []
     },
@@ -146,15 +146,15 @@
         "id": 8,
         "title": "FISIOTERAPIA",
         "modalTitle": "",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/fisioterapia.webp",
+        "imageUrl": "/assets/images/fisioterapia.webp",
         "description": null,
         "sections": []
     },
     {
         "id": 9,
-        "title": "ORIENTAÇÃO ESCOLAR E VOCACIONAL",
-        "modalTitle": "O que é a Orientação Escolar e Ocupacional?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/orientaçao_vocaional.webp",
+        "title": "ORIENTAÇÃO ESCOLAR E EDUCACIONAL",
+        "modalTitle": "O que é a Orientação Escolar e Educacional?",
+        "imageUrl": "/assets/images/orientaçao_vocaional.webp",
         "description": "A Orientação Escolar e Vocacional é um processo, orientado por psicólogos, que através da pesquisa e análise de provas de interesses e aptidões dá algumas orientações sobre o percurso académico e profissional indicado, bem como estratégias de autoconhecimento e pesquisa. O papel do psicólogo não assenta na tomada de decisão, surgindo como uma ferramenta que auxilia a decisão. A OEV tem como objetivos fornecer informações, contribuindo para o amadurecimento de ideias e desenvolver competências para que a tomada de decisão seja informada e consciente. Permitirá que o jovem aumente a seu autoconhecimento, pesquise o sistema educativo e formativo, explorar as profissões, decidir-se, ou seja, preparar-se para o mercado de trabalho cada vez mais complexo e diversificado. O processo é destinado a adolescentes em fases decisivas do seu percurso escolar, essencialmente no 9º, 11º e 12º anos de escolaridade.",
         "sections": [{
             "type": "List",
@@ -172,7 +172,7 @@
         "id": 10,
         "title": "PSICOLOGIA",
         "modalTitle": "O que é a psicologia?",
-        "imageUrl": "/nuxt-tanto-na-lingua/assets/images/psicologia.webp",
+        "imageUrl": "/assets/images/psicologia.webp",
         "description": "Psicologia é a ciência que estuda os processos mentais (perceção, atenção, memória, pensamento), o comportamento do ser humano e as suas interações com o ambiente físico e social. A consulta de psicologia da criança e do adolescente foca-se no desenvolvimento da criança, tendo em conta o seu meio familiar, social e escolar. Na intervenção envolvemos os pais e educadores, fornecendo-lhes estratégias e novas competências que permitam a sua participação na resolução dos problemas da criança/adolescente.",
         "sections": [{
             "type": "List",

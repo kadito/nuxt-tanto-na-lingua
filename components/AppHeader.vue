@@ -2,9 +2,9 @@
   <header class="bg-white">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-5 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
-        <a href="/nuxt-tanto-na-lingua">
+        <a href="">
           <!-- <span class="sr-only">Tanto Na Lingua</span> --> 
-          <img class="h-10 w-auto object-fill" :src="'/nuxt-tanto-na-lingua/assets/logo.svg'" alt="" /> 
+          <img class="h-10 w-auto object-fill" :src="'/assets/logo.svg'" alt="" /> 
           <!-- <component :is="logo" class="h-6 w-6" aria-hidden="true" /> -->
         </a>
       </div>
