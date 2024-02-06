@@ -5,6 +5,9 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
+            script: [
+                { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-1K35XKEL7N" }
+            ]
         },
         baseURL: '/' // baseURL: '/<repository>/'
     },

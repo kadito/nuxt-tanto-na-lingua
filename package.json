@@ -6,7 +6,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages --dotfiles -d .output/public"
+    "deploy": "gh-pages --dotfiles -d .output/public",
+    "cf-deploy": "wrangler pages deploy dist/ --project-name site-tanto-na-lingua"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",

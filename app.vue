@@ -478,7 +478,7 @@ console.log("ENV: ", runtimeConfig.public.DOMAIN)
 useHead({
   htmlAttrs: { lang: 'pt' },
   meta: [
-    { name: 'robots', content: 'noindex'},
+    { name: 'robots', content: 'index'},
     { name: 'url', content: route.path },
   ],
   link: [
@@ -489,23 +489,24 @@ useHead({
 
 useSeoMeta({
   ogType: 'website',
-  ogUrl: route.fullPath,
+  ogUrl: `https://${runtimeConfig.public.DOMAIN}${route.fullPath}`,
+  ogImage: `https://${runtimeConfig.public.DOMAIN}/assets/logo.svg`,
 })
 
-useJsonld({
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'Lorem ipsum dolor sit amet?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
-        },
-      },
-    ],
-  });
+// useJsonld({
+//     '@context': 'https://schema.org',
+//     '@type': 'FAQPage',
+//     mainEntity: [
+//       {
+//         '@type': 'Question',
+//         name: 'Lorem ipsum dolor sit amet?',
+//         acceptedAnswer: {
+//           '@type': 'Answer',
+//           text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+//         },
+//       },
+//     ],
+//   });
 
 
 

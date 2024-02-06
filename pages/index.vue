@@ -31,8 +31,7 @@
     ogTitle: title,
     description: description,
     ogDescription: description,
-    ogImage: 'https://example.com/image.png',
-    twitterCard: '',
+    // twitterCard: '',
   })
 </script>
 
