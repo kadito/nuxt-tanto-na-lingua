@@ -20,8 +20,8 @@ const team = [
     "lastname": "Pinto",
     "birth_date": "20/04/1993",
     "mainService": "Terapeuta da Fala",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
+    "roundedImageUrl": "/assets/images/silvia-pinto-rounded.webp",
+    "imageUrl": "/assets/images/silvia-pinto.webp",
     "description": "A terapeuta da Fala Sílvia licenciou-se em Terapia da Fala em 2009 pela Escola de Saúde do Instituto Politécnico de Setúbal e durante o seu percurso ainda realizou duas pós-graduações, uma em Neuropsicologia de Intervenção e outra em Sistemas Aumentativos e Alternativos da Comunicação – da Infância à Idade Adulta. A par destas graduações ainda complementou o seu percurso com formações complementares em PECS, PODD, Conselheira de Aleitamento Materno, Língua Gestual Portuguesa, Cued Seech e Disfagia. Para além da sua formação e percurso profissional, a Sílvia é a fundadora e coordenadora do projeto Tanto na Língua.",
     "hobbies": {
       "like": "Gosta de jogar ténis e de dançar",
@@ -323,8 +323,8 @@ const team = [
     "imageUrl": "/assets/images/avatar.png",
     "description": "A Psicóloga Joana é Mestre em Psicologia Clínica desde 2014 pela Universidade Lusíada de Lisboa e conta com uma especialização em Interpretação e Aplicação Clínica da Avaliação Psicológica. A Joana apresenta outras formações complementares, tais como, Orientação Vocacional, Intervenção Psicológica em Situações de Divórcio, Hiperatividade com Défice de Atenção: Avaliação e Intervenção, entre outras. É membro efetivo da Ordem dos Psicólogos Portugueses.",
     "hobbies": {
-      "like": "Gosta de ler.",
-      "notLike": "Não gosta de coca-cola, gomas ácidas e de cozinhar.",
+      "like": "Gosta de ler, de coca-cola e adora gomas ácidas.",
+      "notLike": " Não gosta de cozinhar.",
       "curiosities": null
     },
     "services": [9, 10],
@@ -467,6 +467,38 @@ const team = [
     },
     "services": [5],
     "skills": []
+  },
+  {
+    "id": "daniela-goncalves",
+    "firstname": "Daniela",
+    "lastname": "Gonçalves",
+    "mainService": "Terapia da Fala",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Terapeuta da Fala Daniela é licenciada em Terapia da Fala desde 2012 pela Escola Superior de Saúde Egas Moniz. Detém ainda Especialização Avançada em Motricidade Orofacial pelo Instituto CRIAP; Pós-Graduação em Perturbações da Comunicação, Linguagem e Fala: Bases Teóricas, Avaliação e Intervenção pelo Instituto CRIAP; Formações nas áreas da Linguagem Oral e Escrita, Perturbações do Processamento Auditivo Central, Metodologia PECS e Metodologia DOLF.",
+    "hobbies": {
+      "like": "Gosta de andar de bicicleta, fazer caminhadas e de ler.",
+      "notLike": "Não gosta de queijo e não aprecia gomas nem gelatina.",
+      "curiosities": ""
+    },
+    "services": [1,3],
+    "skills": []
+  },
+  {
+    "id": "raquel-santos",
+    "firstname": "Raquel",
+    "lastname": "Santos",
+    "mainService": "Psicomotricista",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Psicomotricista Raquel é licenciada em Reabilitação Psicomotora pela Universidade de Trás-Os-Montes e Alto Douro em 2016. E é mestre em Atividade Física Adaptada pela Faculdade de Desporto da Universidade do Porto desde 2018.",
+    "hobbies": {
+      "like": "Gosta de fazer grandes caminhadas pela natureza, ler e tocar guitarra.",
+      "notLike": "Não tem um prato favorito.",
+      "curiosities": "Já fez 2 caminhos de Santiago e foi treinadora e árbitra num desporto para atletas com deficiência visual: Goalball."
+    },
+    "services": [2, 4],
+    "skills": []
   }
 ]
 
@@ -483,6 +515,17 @@ useHead({
   ],
   link: [
     { id: 'canonical', href: `https://${runtimeConfig.public.DOMAIN}${route.fullPath}` }
+  ],
+  script: [
+    {
+      innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+
+      gtag('js', new Date());
+
+      gtag('config', 'G-1K35XKEL7N');
+      `
+    }
   ]
 })
 

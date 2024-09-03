@@ -7,14 +7,14 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "raquel-goncalves";
+    const item = "daniela-goncalves-2";
     
     const imagePath = `../images/team/${item}.jpeg`;
     
     const source = tinify.fromFile(imagePath);
     
     const fullResized = source.resize({
-        method: "cover",
+        method: "thumb",
         width: 2000,
         height: 1800
     });
@@ -24,7 +24,7 @@ const main = async () => {
     fullConverted.toFile(`../public/assets/images/${item}.${fullExtension}`);
     
     const resized = source.resize({
-        method: "cover",
+        method: "thumb",
         width: 200,
         height: 200
     });

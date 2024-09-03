@@ -90,7 +90,7 @@
                     "question": "O que é necessário para iniciar este programa?",
                     "listAnswer": [
                         "Estar numa escola que aceite um terapeuta externo na sala de aula.",
-                        "Caso seja pré-escolar é necessário tem 4 anos ou mais.",
+                        "Caso seja pré-escolar é necessário ter 4 anos ou mais.",
                         "É necessário realizar-se uma observação indireta em sala de aula e, caso necessário, um rastreio em psicomotricidade.",
                         "Reunião com a equipa multidisciplinar da criança – escola e pais."
                     ]
@@ -137,7 +137,7 @@
     {
         "id": 7,
         "title": "ENSINO ESPECIALIZADO",
-        "modalTitle": "",
+        "modalTitle": "Apoio direto na aquisição de competências académicas.",
         "imageUrl": "/assets/images/ensino_especializado.webp",
         "description": null,
         "sections": []
@@ -152,8 +152,8 @@
     },
     {
         "id": 9,
-        "title": "ORIENTAÇÃO ESCOLAR E EDUCACIONAL",
-        "modalTitle": "O que é a Orientação Escolar e Educacional?",
+        "title": "ORIENTAÇÃO ESCOLAR E VOCACIONAL",
+        "modalTitle": "O que é a Orientação Escolar e Vocacional?",
         "imageUrl": "/assets/images/orientaçao_vocaional.webp",
         "description": "A Orientação Escolar e Vocacional é um processo, orientado por psicólogos, que através da pesquisa e análise de provas de interesses e aptidões dá algumas orientações sobre o percurso académico e profissional indicado, bem como estratégias de autoconhecimento e pesquisa. O papel do psicólogo não assenta na tomada de decisão, surgindo como uma ferramenta que auxilia a decisão. A OEV tem como objetivos fornecer informações, contribuindo para o amadurecimento de ideias e desenvolver competências para que a tomada de decisão seja informada e consciente. Permitirá que o jovem aumente a seu autoconhecimento, pesquise o sistema educativo e formativo, explorar as profissões, decidir-se, ou seja, preparar-se para o mercado de trabalho cada vez mais complexo e diversificado. O processo é destinado a adolescentes em fases decisivas do seu percurso escolar, essencialmente no 9º, 11º e 12º anos de escolaridade.",
         "sections": [{
