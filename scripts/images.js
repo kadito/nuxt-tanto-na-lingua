@@ -7,9 +7,9 @@ const main = async () => {
 
     tinify.key = TINIFY_KEY;
     
-    const item = "daniela-goncalves-2";
+    const item = "marina-leal";
     
-    const imagePath = `../images/team/${item}.jpeg`;
+    const imagePath = `../images/team/${item}.jpg`;
     
     const source = tinify.fromFile(imagePath);
     

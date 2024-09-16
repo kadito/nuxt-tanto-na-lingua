@@ -116,8 +116,8 @@ const team = [
     ]
   },
   {
-    "id": "ana-caetano",
-    "firstname": "Ana Cristina Caetano",
+    "id": "ana-leocadio",
+    "firstname": "Ana",
     "lastname": "Leocádio",
     "birth_date": "20/04/1993",
     "mainService": "Terapeuta da Fala",
@@ -351,8 +351,8 @@ const team = [
   },
   {
     "id": "raquel-goncalves",
-    "firstname": "Raquel Gonçalves",
-    "lastname": "Silva",
+    "firstname": "Raquel",
+    "lastname": "Gonçalves",
     "birth_date": "20/04/1993",
     "mainService": "Psicóloga",
     "roundedImageUrl": "/assets/images/raquel-goncalves-rounded.webp",
@@ -496,6 +496,38 @@ const team = [
       "like": "Gosta de fazer grandes caminhadas pela natureza, ler e tocar guitarra.",
       "notLike": "Não tem um prato favorito.",
       "curiosities": "Já fez 2 caminhos de Santiago e foi treinadora e árbitra num desporto para atletas com deficiência visual: Goalball."
+    },
+    "services": [2, 4],
+    "skills": []
+  },
+  {
+    "id": "catarina-lopes",
+    "firstname": "Catarina",
+    "lastname": "Lopes",
+    "mainService": "Psicomotricista",
+    "roundedImageUrl": "/assets/images/catarina-lopes-rounded.webp",
+    "imageUrl": "/assets/images/catarina-lopes.webp",
+    "description": "A Psicomotricista Catarina licenciou-se em 2019, pela Faculdade de Motricidade Humana – Universidade de Lisboa. Posteriormente, concluiu o Mestrado em Reabilitação Psicomotora também na Faculdade de Motricidade Humana. Mais recentemente tem tido maior interesse em trabalhar com crianças, jovens e tenho vindo a desenvolver carreira em contexto escolar, clínico e domiciliar com crianças e jovens com Perturbação do Espetro Autista, dificuldades de aprendizagem, técnicas e métodos de estudo bem como problemas de comportamento e desenvolvimento.",
+    "hobbies": {
+      "like": "Gosta de ir à praia, viajar, fazer convívios com as amigas e de sushi.",
+      "notLike": "Não gosta de salada e tem medo de trovoada.",
+      "curiosities": "Foi federada em patinagem artística."
+    },
+    "services": [2, 4],
+    "skills": []
+  },
+  {
+    "id": "Mariana-Leal",
+    "firstname": "Mariana",
+    "lastname": "Leal",
+    "mainService": "Terapeuta da Fala",
+    "roundedImageUrl": "/assets/images/marina-leal-rounded.webp",
+    "imageUrl": "/assets/images/marina-leal.webp",
+    "description": "A Terapeuta da Fala Mariana Leal é licenciada em Terapia da Fala pelo instituto politécnico de Setúbal desde 2024.  Como complemento ao seu percurso profissional fez a formação no instrumento de avaliação ACLLE, no Método Habilles e no Programa Baby Signs (nível 1 e 2).",
+    "hobbies": {
+      "like": "Gosta de nadar, ir à praia e de café.",
+      "notLike": "Não gosta de puré.",
+      "curiosities": null
     },
     "services": [2, 4],
     "skills": []
