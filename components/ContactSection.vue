@@ -41,7 +41,7 @@
                   <span class="sr-only">Telephone</span>
                   <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-gray-900" href="mailto:tantolingua@gmail.com">tantolingua@gmail.com</a></dd>
+                <dd><a class="hover:text-gray-900" href="mailto:tantolingua@gmail.com">geral@tanto-na-lingua.pt</a></dd>
               </div>
             </dl>
           </div>

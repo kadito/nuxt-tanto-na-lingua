@@ -137,10 +137,28 @@
     {
         "id": 7,
         "title": "ENSINO ESPECIALIZADO",
-        "modalTitle": "Apoio direto na aquisição de competências académicas.",
+        "modalTitle": "O que é a Educação Especial?",
         "imageUrl": "/assets/images/ensino_especializado.webp",
-        "description": null,
-        "sections": []
+        "description": "A Educação Especial é um apoio especializado que visa promover o desenvolvimento global e o sucesso escolar de crianças e jovens com necessidades educativas específicas, temporárias ou permanentes. Trabalha com alunos que apresentam dificuldades significativas de aprendizagem, deficiências (motoras, visuais, auditivas ou intelectuais), perturbações do espectro do autismo (PEA), perturbações do desenvolvimento, entre outras condições.",
+        "sections": [{
+            "type": "List",
+            "title": "Abordagem",
+            "description": "A abordagem é individualizada, inclusiva e colaborativa, envolvendo:",
+            "items": [
+                "Planos de intervenção personalizados",
+                "Apoio coordenado com terapeutas, psicólogos, professores e famílias",
+                "Promoção de autonomia, participação e inclusão escolar e social"
+            ]
+        }, {
+            "type": "List",
+            "title": "Objetivos",
+            "description": "O objetivo é garantir que cada criança e jovem:",
+            "items": [
+                "Recebe o apoio adequado ao seu perfil",
+                "Desenvolve todo o seu potencial de aprendizagem",
+                "Participa ativamente no seu processo educativo e social"
+            ]
+        }]
     },
     {
         "id": 8,

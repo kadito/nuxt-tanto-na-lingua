@@ -89,60 +89,6 @@ const team = [
     ]
   },
   {
-    "id": "marilia-nicolau",
-    "firstname": "Marília",
-    "lastname": "Nicolau",
-    "birth_date": "20/04/1993",
-    "mainService": "Psicomotricista",
-    "roundedImageUrl": "/assets/images/marilia-nicolau-rounded.webp",
-    "imageUrl": "/assets/images/marilia-nicolau.webp",
-    "description": "A Psicomotricista Marília tem uma licenciatura e mestrado em Reabilitação Psicomotora pela Faculdade de Motricidade Humana, Faculdade de Lisboa desde 2022. Tem ainda formação nível 1 em Babys Signs.",
-    "hobbies": {
-      "like": "Gosta de ler e de praia.",
-      "notLike": "Não gosta de frio.",
-      "curiosities": "Teve um dente de leite até aos 21 anos de idade."
-    },
-    "services": [2, 4],
-    "skills": [
-      {
-        "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
-      },
-      {
-        "title": "Técnica-sombra"
-      },
-      {
-        "title": "Intervenção em grupo"
-      }
-    ]
-  },
-  {
-    "id": "ana-leocadio",
-    "firstname": "Ana",
-    "lastname": "Leocádio",
-    "birth_date": "20/04/1993",
-    "mainService": "Terapeuta da Fala",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
-    "description": "Em 2004, a Terapeuta da Fala Ana concluiu o curso na Escola Superior de Saúde Egas Moniz. Em 2005 iniciou funções numa Equipa Local de Intervenção Precoce no Alentejo, onde esteve durante 18 anos. Ao longo destes anos fez várias formações, nomeadamente no desenvolvimento infantil e perturbações do neurodesenvolvimento.",
-    "hobbies": {
-      "like": "Gosta muito de trabalhos manuais, principalmente do processo criativo e de uma boa conversa, bem como de partilhar o que mais sabe.",
-      "notLike": "Não gosta de estar “sem fazer nada” e não gosta de areia.",
-      "curiosities": null
-    },
-    "services": [1],
-    "skills": [
-      {
-        "title": "Intervenção com crianças com perturbações do desenvolvimento e neurodesenvolvimento"
-      },
-      {
-        "title": "Intervenção com crianças dos 0 aos 6 anos"
-      },
-      {
-        "title": "Capacitação parental/familiar"
-      }
-    ]
-  },
-  {
     "id": "joana-assuncao",
     "firstname": "Joana",
     "lastname": "Assunção",
@@ -163,72 +109,6 @@ const team = [
       },
       {
         "title": "Intervenção com a população infantil"
-      }
-    ]
-  },
-  {
-    "id": "joana-nogueira",
-    "firstname": "Joana",
-    "lastname": "Nogueira",
-    "birth_date": "20/04/1993",
-    "mainService": "Psicomotricista",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
-    "description": "A Psicomotricista Joana é licenciada em Reabilitação Psicomotora pela Faculdade de Motricidade Humana e Mestre em Educação Especial – Especialização em Problemas de Aprendizagem e Comportamento pela Escola Superior de Educação de Lisboa. Tem pós-graduação em Neuropsicologia de Intervenção pelo Instituto CRIAP. É formadora profissional pelo INEPI e investiu em outras formações complementares, tais como, método SON-RISE, Pivotal Response Treatment, ABA funcional, PECS, Baby Signs, Práticas parentais positivas, Método Fonomímico de Paula Teles, bem como Suporte Básico de Vida e Primeiros Socorros Pediátricos.",
-    "hobbies": {
-      "like": "Gosta de andar descalça e que valoriza muito as pequenas grandes conquistas de cada um.",
-      "notLike": "Não gosta de pessoas que só pensam em si e não se sabem colocar no lugar do outro.",
-      "curiosities": null
-    },
-    "services": [2],
-    "skills": [
-      {
-        "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
-      },
-      {
-        "title": "Técnica-sombra"
-      },
-      {
-        "title": "Formação na metodologia PECS"
-      },
-      {
-        "title": "Intervenção em grupo"
-      },
-      {
-        "title": "Intervenção com população idosa"
-      }
-    ]
-  },
-  {
-    "id": "rita-silva",
-    "firstname": "Rita",
-    "lastname": "Silva",
-    "birth_date": "20/04/1993",
-    "mainService": "Psicomotricista",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
-    "description": "A Psicomotricista Rita é licenciada em Reabilitação Psicomotora pela Faculdade de Motricidade Humana - Universidade de Lisboa desde 2016 e tem formação em Equitação Terapêutica, metodologia PECS (Sistema de Comunicação por Troca de Imagens) e Babysigns.",
-    "hobbies": {
-      "like": "Gosta de sorrisos fáceis e gargalhadas de coração, de trabalhos manuais e de viajar.",
-      "notLike": "Não gosta de falta de humildade.",
-      "curiosities": "Já frequentaou três desportos diferentes durante o mesmo ano."
-    },
-    "services": [2],
-    "skills": [
-      {
-        "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
-      },
-      {
-        "title": "Técnica-sombra"
-      },
-      {
-        "title": "Formação na metodologia PECS"
-      },
-      {
-        "title": "Intervenção com a população adulta"
-      },
-      {
-        "title": "Intervenção com a população idosa"
       }
     ]
   },
@@ -350,23 +230,6 @@ const team = [
     ]
   },
   {
-    "id": "raquel-goncalves",
-    "firstname": "Raquel",
-    "lastname": "Gonçalves",
-    "birth_date": "20/04/1993",
-    "mainService": "Psicóloga",
-    "roundedImageUrl": "/assets/images/raquel-goncalves-rounded.webp",
-    "imageUrl": "/assets/images/raquel-goncalves.webp",
-    "description": "A Psicóloga Raquel é licenciada pelo Instituto Universitário de Lisboa (ISCTE) em Psicologia e Mestre em Psicologia Comunitária e Proteção de Menores, formação académica que completou com o curso de especialização avançada em Psicologia Escolar e Educacional. Durante o seu percurso profissional ainda fez cursos de curta duração relacionados com Perturbações de Aprendizagem Específica (dislexia) e avaliação psicológica de caráter projetivo.",
-    "hobbies": {
-      "like": "Gosta de ler, fazer desporto e cozinhar.",
-      "notLike": "Não gosta de frio e trânsito.",
-      "curiosities": null
-    },
-    "services": [3, 10],
-    "skills": []
-  },
-  {
     "id": "ana-lapa",
     "firstname": "Ana",
     "lastname": "Lapa",
@@ -381,23 +244,6 @@ const team = [
       "curiosities": "A sua avó a chama de “Niducas cantadeira” porque andava sempre a cantarolar por todo o lado."
     },
     "services": [6],
-    "skills": []
-  },
-  {
-    "id": "cristiana-gameiro",
-    "firstname": "Cristiana",
-    "lastname": "Gameiro",
-    "birth_date": "20/04/1993",
-    "mainService": "Fisioterapeuta",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
-    "description": "TO FIX",
-    "hobbies": {
-      "like": "Amante da natureza e de atividades ao ar livre, praia e ondas do mar.",
-      "notLike": "Não gosta do inverno , assim como de montanhas russas., um medo de miúda, mas que a paixão pelo movimento e aventura permanece constante.",
-      "curiosities": null
-    },
-    "services": [],
     "skills": []
   },
   {
@@ -469,22 +315,6 @@ const team = [
     "skills": []
   },
   {
-    "id": "daniela-goncalves",
-    "firstname": "Daniela",
-    "lastname": "Gonçalves",
-    "mainService": "Terapia da Fala",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
-    "description": "A Terapeuta da Fala Daniela é licenciada em Terapia da Fala desde 2012 pela Escola Superior de Saúde Egas Moniz. Detém ainda Especialização Avançada em Motricidade Orofacial pelo Instituto CRIAP; Pós-Graduação em Perturbações da Comunicação, Linguagem e Fala: Bases Teóricas, Avaliação e Intervenção pelo Instituto CRIAP; Formações nas áreas da Linguagem Oral e Escrita, Perturbações do Processamento Auditivo Central, Metodologia PECS e Metodologia DOLF.",
-    "hobbies": {
-      "like": "Gosta de andar de bicicleta, fazer caminhadas e de ler.",
-      "notLike": "Não gosta de queijo e não aprecia gomas nem gelatina.",
-      "curiosities": ""
-    },
-    "services": [1,3],
-    "skills": []
-  },
-  {
     "id": "raquel-santos",
     "firstname": "Raquel",
     "lastname": "Santos",
@@ -531,6 +361,128 @@ const team = [
     },
     "services": [2, 4],
     "skills": []
+  },
+  {
+    "id": "catarina-duarte",
+    "firstname": "Catarina",
+    "lastname": "Duarte",
+    "mainService": "Terapeuta da Fala",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Terapeuta da Fala Catarina Duarte é licenciada em Terapia da Fala pelo Instituto Politécnico de Setúbal em 2025. Realizou uma formação em Intervenção dos Terapeutas da Fala nas Perturbações Motoras dos Sons da Fala e possui ainda formação em Suporte Básico de Vida. Adora trabalhar com a população infantojuvenil e pelo desenvolvimento infantil.",
+    "hobbies": {
+      "like": "Adora ir à praia, viajar, ler e desfrutar da calma do campo.",
+      "notLike": "Não gosta de cogumelos, mas às vezes lá aparecem na cozinha.",
+      "curiosities": "Fala fluentemente francês e tem uma quinta onde vivem ovelhas e cabras muito fofas, que ajudam a tornar os dias ainda mais especiais e adora aprender coisas novas."
+    },
+    "services": [1],
+    "skills": [
+      {
+        "title": "Intervenção em Perturbações Motoras dos Sons da Fala"
+      },
+      {
+        "title": "Suporte Básico de Vida"
+      },
+      {
+        "title": "Trabalho com população infantojuvenil"
+      }
+    ]
+  },
+  {
+    "id": "carolina-toscano",
+    "firstname": "Carolina",
+    "lastname": "Toscano",
+    "mainService": "Terapeuta da Fala",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Terapeuta da Fala Carolina Toscano é licenciada em Terapia da Fala pelo Instituto Politécnico de Setúbal em 2025. Realizou curso prático em Intervenção dos Terapeutas da Fala nas Perturbações Alimentares e participou no Workshop para profissionais do Programa Baby Signs – Nível I e II, aprofundando competências na avaliação e intervenção junto das crianças e das suas famílias.",
+    "hobbies": {
+      "like": "Gosta de viajar, conhecer novas culturas, ir à praia e passar tempo com quem lhe é especial.",
+      "notLike": "Não gosta de frio.",
+      "curiosities": "Tem uma intolerância alimentar, o que a torna ainda mais consciente da importância de uma alimentação adaptada e equilibrada."
+    },
+    "services": [1],
+    "skills": [
+      {
+        "title": "Intervenção em Perturbações Alimentares"
+      },
+      {
+        "title": "Programa Baby Signs - Nível I e II"
+      },
+      {
+        "title": "Avaliação e intervenção com crianças e famílias"
+      }
+    ]
+  },
+  {
+    "id": "ana-gomes",
+    "firstname": "Ana",
+    "lastname": "Gomes",
+    "mainService": "Psicomotricista",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Psicomotricista Ana Gomes licenciou-se em 2019 pela Faculdade de Motricidade Humana – Universidade de Lisboa, onde também concluiu o Mestrado em Reabilitação Psicomotora. Desde então, tem vindo a desenvolver a sua carreira em contexto escolar, clínico e domiciliar, intervindo com crianças e jovens com Perturbações do Desenvolvimento (PHDA, PEA, Trissomias...), Perturbações da Aprendizagem e do Comportamento. Desde cedo, percebeu o seu interesse pelo desenvolvimento infantil, o que despertou a sua paixão pela psicomotricidade. No seu trabalho, utiliza o movimento e a interação para promover o desenvolvimento motor, cognitivo e emocional das crianças e jovens. Em cada sessão, planeia estratégias individualizadas, respeitando as necessidades e capacidades de cada um, acreditando que todas as conquistas, por mais pequenas que sejam, refletem o potencial único de cada criança e a importância de um acompanhamento adaptado e consistente.",
+    "hobbies": {
+      "like": "Gosta de eventos culturais, especialmente concertos, festivais e teatro, de sol e calor, de ler e de conversas longas com amigos.",
+      "notLike": "Ama chocolate, mas não se dá bem com animais com penas e nunca fez amizade com um brócolo.",
+      "curiosities": "Participa regularmente em ações de voluntariado."
+    },
+    "services": [2, 4],
+    "skills": [
+      {
+        "title": "Intervenção com crianças e jovens com Perturbações do Desenvolvimento"
+      },
+      {
+        "title": "Perturbações da Aprendizagem e do Comportamento"
+      },
+      {
+        "title": "Técnica-sombra"
+      },
+      {
+        "title": "Desenvolvimento motor, cognitivo e emocional"
+      },
+      {
+        "title": "Estratégias individualizadas de intervenção"
+      }
+    ]
+  },
+  {
+    "id": "liliana-jorge-updated",
+    "firstname": "Liliana",
+    "lastname": "Jorge",
+    "mainService": "Professora do Ensino Especial",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Professora Liliana é licenciada em Educação, com especialização em Educação Especial, na área das dificuldades cognitivas e de aprendizagem. Tem experiência no acompanhamento de crianças e jovens com necessidades educativas especiais em diferentes níveis de ensino. Tem formação em Perturbações do Espectro do Autismo (PEA), Dislexia, Défice Cognitivo, Perturbações do comportamento e da autorregulação, bem como em estratégias diferenciadas de ensino e adaptação curricular.",
+    "hobbies": {
+      "like": "Adora estar em contacto com a natureza, fazer caminhadas, stand-up paddle e canoagem.",
+      "notLike": "Não gosta nada de rotinas demasiado rígidas – acredita que cada criança tem o seu próprio ritmo e caminho.",
+      "curiosities": null
+    },
+    "services": [7],
+    "skills": [
+      {
+        "title": "Educação Especial - dificuldades cognitivas e de aprendizagem"
+      },
+      {
+        "title": "Perturbações do Espectro do Autismo (PEA)"
+      },
+      {
+        "title": "Dislexia"
+      },
+      {
+        "title": "Défice Cognitivo"
+      },
+      {
+        "title": "Perturbações do comportamento e da autorregulação"
+      },
+      {
+        "title": "Estratégias diferenciadas de ensino"
+      },
+      {
+        "title": "Adaptação curricular"
+      }
+    ]
   }
 ]
 

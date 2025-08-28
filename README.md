@@ -40,3 +40,21 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+
+## AI Prompts
+
+### Add a Person to the Team Array
+
+To add a new person to the `team` array in `app.vue`, use the following prompt:
+```bash
+Can you add the following person to the team array on app.vue?
+```
+
+### Add a Service to the Services Array
+
+To add a new service to the `services` array in `services.json`, use the following prompt:
+```bash
+Can you add the following service to the service array on services?
+```
