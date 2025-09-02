@@ -213,5 +213,55 @@
                 "Processos de divórcios."
             ]
         }]
+    },
+    {
+        "id": 11,
+        "title": "FISIOTERAPIA PEDIÁTRICA",
+        "modalTitle": "O que é a Fisioterapia Pediátrica?",
+        "imageUrl": "/assets/images/fisioterapia.webp",
+        "description": "A Fisioterapia Pediátrica é uma área especializada da fisioterapia que se dedica ao desenvolvimento, manutenção e reabilitação das capacidades físicas e funcionais de bebés, crianças e adolescentes. Esta intervenção foca-se na promoção do desenvolvimento motor adequado, na prevenção e tratamento de alterações do movimento e na maximização do potencial funcional de cada criança, considerando sempre as suas necessidades individuais e o contexto familiar.",
+        "sections": [{
+            "type": "List",
+            "title": "Áreas de intervenção",
+            "description": "A Fisioterapia Pediátrica intervém em diversas condições que afetam o desenvolvimento e função motora:",
+            "items": [
+                "Atrasos no desenvolvimento motor",
+                "Alterações do tónus muscular (hipotonia, hipertonia)",
+                "Perturbações da coordenação motora",
+                "Paralisia cerebral",
+                "Espinha bífida",
+                "Distrofia muscular",
+                "Lesões traumáticas",
+                "Alterações posturais e ortopédicas",
+                "Problemas respiratórios",
+                "Reabilitação pós-cirúrgica",
+                "Condições neurológicas congénitas ou adquiridas"
+            ]
+        }]
+    },
+    {
+        "id": 12,
+        "title": "COTERAPIA",
+        "modalTitle": "O que é a Coterapia?",
+        "imageUrl": "/assets/images/fisioterapia.webp",
+        "description": "A Coterapia é uma abordagem terapêutica colaborativa onde dois ou mais profissionais de diferentes especialidades trabalham em conjunto durante as sessões de intervenção. Esta metodologia permite uma visão multidisciplinar mais completa e integrada, potenciando os resultados terapêuticos através da combinação de competências e técnicas complementares, sempre centrada nas necessidades específicas de cada utente.",
+        "sections": [{
+            "type": "List",
+            "title": "Benefícios da Coterapia",
+            "description": "A abordagem em coterapia oferece múltiplas vantagens terapêuticas:",
+            "items": [
+                "Intervenção multidisciplinar integrada",
+                "Partilha de conhecimentos entre profissionais",
+                "Maior eficácia na resolução de problemas complexos",
+                "Abordagem holística do utente",
+                "Otimização do tempo de intervenção",
+                "Maior motivação e envolvimento do utente",
+                "Transferência de competências entre áreas",
+                "Desenvolvimento de estratégias inovadoras",
+                "Melhor coordenação entre diferentes objetivos terapêuticos",
+                "Suporte mútuo entre terapeutas",
+                "Avaliação mais completa e rigorosa"
+            ]
+        }]
     }
 ]

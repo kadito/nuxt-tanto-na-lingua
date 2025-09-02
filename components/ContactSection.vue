@@ -1,89 +1,164 @@
- 
 <template>
-    <div class="relative isolate bg-white">
-      <!-- mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 -->
-      <div class="flex">
-        <div class="relative px-6 pt-20 pb-8 sm:pt-20 lg:px-82" style="width: 100%">
-          <div class="lg:mx-0">
-            <div class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2">
-              <svg class="absolute inset-0 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-                <defs>
-                  <pattern id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527" width="200" height="200" x="100%" y="-1" patternUnits="userSpaceOnUse">
-                    <path d="M130 200V.5M.5 .5H200" fill="none" />
-                  </pattern>
-                </defs>
-                <rect width="100%" height="100%" stroke-width="0" fill="white" />
-                <svg x="100%" y="-1" class="overflow-visible fill-gray-50">
-                  <path d="M-470.5 0h201v201h-201Z" stroke-width="0" />
-                </svg>
-                <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
-              </svg>
+    <div class="section-padding bg-white relative overflow-hidden">
+      <!-- Background decorations -->
+      <div class="absolute inset-0 -z-10">
+        <div class="absolute top-20 right-20 w-80 h-80 bg-primary-100 rounded-full mix-blend-multiply filter blur-xl opacity-50"></div>
+        <div class="absolute bottom-20 left-20 w-96 h-96 bg-accent-100 rounded-full mix-blend-multiply filter blur-xl opacity-50"></div>
+      </div>
+
+      <div class="mx-auto max-w-7xl container-padding">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <!-- Contact Information -->
+          <div class="lg:pr-8">
+            <div class="mb-6">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary-100 text-primary-800">
+                Contactos
+              </span>
             </div>
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900">Entra em Contacto Conosco</h2>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Se tiver alguma dúvida, desejar agendar uma consulta ou rastreio entre em contacto connosco.</p>
-            <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
-              <div class="flex gap-x-4">
-                <dt class="flex-none">
-                  <span class="sr-only">Telephone</span>
-                  <BuildingOffice2Icon class="h-7 w-6 text-gray-400" aria-hidden="true" />
-                </dt>
-                <dd>Moscavide<br />1885 - 037</dd>
+            
+            <h2 class="text-4xl sm:text-5xl font-bold text-neutral-900 mb-6 leading-tight">
+              Entre em contacto 
+              <span class="text-gradient">connosco</span>
+            </h2>
+            
+            <p class="text-xl text-neutral-600 mb-12 leading-relaxed">
+              Se tiver alguma dúvida, desejar agendar uma consulta ou rastreio entre em contacto connosco. Estamos aqui para ajudar.
+            </p>
+
+            <!-- Contact Methods -->
+            <div class="space-y-6">
+              <!-- Location -->
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                    <BuildingOffice2Icon class="h-6 w-6 text-primary-600" aria-hidden="true" />
+                  </div>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-neutral-900 mb-2">Localização</h3>
+                  <p class="text-neutral-600">
+                    Moscavide<br />
+                    1885 - 037
+                  </p>
+                </div>
               </div>
-              <div class="flex gap-x-4">
-                <dt class="flex-none">
-                  <span class="sr-only">Telephone</span>
-                  <PhoneIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
-                </dt>
-                <dd><a class="hover:text-gray-900" href="tel:+351 926635923">+351 926635923</a></dd>
+
+              <!-- Phone -->
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                    <PhoneIcon class="h-6 w-6 text-primary-600" aria-hidden="true" />
+                  </div>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-neutral-900 mb-2">Telefone</h3>
+                  <a href="tel:+351926635923" 
+                     class="text-primary-600 hover:text-primary-700 font-medium transition-colors duration-200">
+                    +351 926 635 923
+                  </a>
+                </div>
               </div>
-              <div class="flex gap-x-4">
-                <dt class="flex-none">
-                  <span class="sr-only">Telephone</span>
-                  <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
-                </dt>
-                <dd><a class="hover:text-gray-900" href="mailto:tantolingua@gmail.com">geral@tanto-na-lingua.pt</a></dd>
+
+              <!-- Email -->
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                    <EnvelopeIcon class="h-6 w-6 text-primary-600" aria-hidden="true" />
+                  </div>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-neutral-900 mb-2">Email</h3>
+                  <a href="mailto:geral@tanto-na-lingua.pt" 
+                     class="text-primary-600 hover:text-primary-700 font-medium transition-colors duration-200">
+                     geral@tanto-na-lingua.pt
+                  </a>
+                </div>
               </div>
-            </dl>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="mt-12 space-y-4">
+              <h3 class="font-semibold text-neutral-900 mb-4">Formas rápidas de contacto:</h3>
+              <div class="flex flex-col sm:flex-row gap-4">
+                <a href="tel:+351926635923" class="btn-primary flex-1 justify-center">
+                  <PhoneIcon class="h-5 w-5 mr-2" />
+                  Ligar Agora
+                </a>
+                <a href="mailto:geral@tanto-na-lingua.pt" class="btn-outline flex-1 justify-center">
+                  <EnvelopeIcon class="h-5 w-5 mr-2" />
+                  Enviar Email
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual/Map Section -->
+          <div class="lg:pl-8">
+            <div class="relative">
+              <!-- Map placeholder / Contact visual -->
+              <div class="aspect-[4/3] rounded-3xl bg-gradient-to-br from-primary-500 to-accent-500 p-8 flex items-center justify-center shadow-large relative overflow-hidden">
+                <!-- Background pattern -->
+                <div class="absolute inset-0 opacity-10">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
+                      </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#grid)" />
+                  </svg>
+                </div>
+                
+                <!-- Content -->
+                <div class="text-center text-white relative z-10">
+                  <div class="w-24 h-24 mx-auto mb-6 bg-white/20 rounded-2xl flex items-center justify-center">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                  </div>
+                  <h3 class="text-2xl font-bold mb-2">Venha conhecer-nos</h3>
+                  <p class="text-lg opacity-90 mb-6">Estamos em Moscavide, Lisboa</p>
+                  
+                  <!-- Operating hours or additional info -->
+                  <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-left">
+                    <h4 class="font-semibold mb-2">Horário de funcionamento:</h4>
+                    <div class="text-sm space-y-1 opacity-90">
+                      <p>Segunda a Sexta: 9h - 19h</p>
+                      <p>Sábados: 9h - 13h</p>
+                      <p>Domingos: Fechado</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Decorative elements -->
+              <div class="absolute -top-4 -right-4 w-16 h-16 bg-primary-200 rounded-full opacity-60"></div>
+              <div class="absolute -bottom-4 -left-4 w-20 h-20 bg-accent-200 rounded-full opacity-60"></div>
+            </div>
           </div>
         </div>
-        <!-- <form action="#" method="POST" class="px-6 pb-8 pt-20 sm:pb-8 lg:px-8">
-          <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-            <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
-              <div class="sm:col-span-2">
-                <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
-                <div class="mt-2.5">
-                  <input type="text" name="name" id="name" autocomplete="name" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                </div>
-              </div>
-              <div class="sm:col-span-2">
-                <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
-                <div class="mt-2.5">
-                  <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                </div>
-              </div>
-              <div class="sm:col-span-2">
-                <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
-                <div class="mt-2.5">
-                  <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                </div>
-              </div>
-              <div class="sm:col-span-2">
-                <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
-                <div class="mt-2.5">
-                  <textarea name="message" id="message" rows="4" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                </div>
+
+        <!-- Bottom CTA -->
+        <div class="mt-16 text-center">
+          <div class="inline-flex items-center gap-4 p-6 bg-neutral-100 rounded-2xl">
+            <div class="flex-shrink-0">
+              <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
               </div>
             </div>
-            <div class="mt-8 flex justify-end">
-              <button type="submit" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send message</button>
+            <div class="text-left">
+              <h3 class="font-semibold text-neutral-900 mb-1">Precisa de agendar uma consulta?</h3>
+              <p class="text-neutral-600 text-sm">Entre em contacto connosco para marcar a sua consulta ou esclarecimento</p>
             </div>
           </div>
-        </form> -->
+        </div>
       </div>
     </div>
-    
-  </template>
+</template>
   
-  <script setup>
-  import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
-  </script>
+<script setup>
+import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
+</script>

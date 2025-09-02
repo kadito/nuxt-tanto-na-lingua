@@ -1,37 +1,110 @@
 <template>
-  <div class="isolate hero-image">
-    <main>
-      <div class="relative p-10 lg:p-12">
-        <div class="flex flex-col justify-between" style="height: 500px">
-            <h1 class="text-end text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Tanto Na Língua</h1>
-            <p class="text-start  mt-6 text-3xl leading-8 text-gray-600">Servicos especializados de Saúde e Educação</p>
+  <div class="relative isolate hero-section overflow-hidden">
+    <!-- Background gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-br from-secondary-500/95 via-secondary-600/90 to-secondary-700/95"></div>
+    
+    <!-- Decorative background elements -->
+    <div class="absolute inset-0 bg-[url('/assets/images/capa.png')] bg-cover bg-center bg-no-repeat opacity-20"></div>
+    
+    <!-- Content -->
+    <div class="relative">
+      <main class="section-padding">
+        <div class="mx-auto max-w-7xl container-padding">
+          <div class="mx-auto max-w-4xl text-center">
+            <!-- Animated badge -->
+            <div class="inline-flex items-center px-4 py-2 rounded-full bg-primary-500/10 text-primary-300 text-sm font-medium mb-8 animate-fade-in">
+              <span class="w-2 h-2 bg-primary-400 rounded-full mr-2 animate-pulse-soft"></span>
+              Serviços especializados desde 2019
+            </div>
+            
+            <!-- Main headline -->
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6 animate-slide-up">
+              Tanto Na 
+              <span class="text-gradient bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
+                Língua
+              </span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-xl sm:text-2xl text-accent-200 max-w-3xl mx-auto mb-12 animate-slide-up" style="animation-delay: 0.2s;">
+              Serviços especializados de Saúde e Educação para maximizar o desenvolvimento global de cada pessoa
+            </p>
+            
+            <!-- CTA buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up" style="animation-delay: 0.4s;">
+              <a href="#servicos" class="btn-primary bg-primary-500 hover:bg-primary-600 text-lg px-8 py-4">
+                Conheça os Serviços
+                <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <a href="#equipa" class="btn-outline border-accent-300 text-accent-300 hover:bg-accent-300 hover:text-secondary-900 text-lg px-8 py-4">
+                Nossa Equipa
+              </a>
+            </div>
+          </div>
+          
+          <!-- Stats section -->
+          <div class="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto animate-slide-up" style="animation-delay: 0.6s;">
+            <div class="text-center">
+              <div class="text-4xl font-bold text-primary-400 mb-2">21+</div>
+              <div class="text-accent-200 text-sm uppercase tracking-wide">Profissionais</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-primary-400 mb-2">250+</div>
+              <div class="text-accent-200 text-sm uppercase tracking-wide">Utentes</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-primary-400 mb-2">10</div>
+              <div class="text-accent-200 text-sm uppercase tracking-wide">Serviços</div>
+            </div>
+          </div>
         </div>
-        <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
-          <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
-            <path fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
-            <defs>
-              <linearGradient id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#9089FC" />
-                <stop offset="1" stop-color="#FF80B5" />
-              </linearGradient>
-            </defs>
+      </main>
+      
+      <!-- Scroll indicator -->
+      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <a href="#sobre-nos" class="text-accent-300 hover:text-primary-400 transition-colors">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
-        </div>
+        </a>
       </div>
-    </main>
+    </div>
+    
+    <!-- Decorative elements -->
+    <div class="absolute top-20 left-10 w-32 h-32 bg-primary-500/10 rounded-full blur-xl animate-pulse-soft"></div>
+    <div class="absolute bottom-20 right-10 w-40 h-40 bg-accent-500/10 rounded-full blur-xl animate-pulse-soft" style="animation-delay: 1s;"></div>
   </div>
 </template>
-  
+
 <script setup>
 </script>
 
+<style scoped>
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-<style>
-.hero-image {
-  background-image: url("../public/assets/images/capa.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: fill;
-  position: relative;
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out;
+  animation-fill-mode: both;
 }
 </style>

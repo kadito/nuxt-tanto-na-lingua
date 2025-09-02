@@ -367,8 +367,8 @@ const team = [
     "firstname": "Catarina",
     "lastname": "Duarte",
     "mainService": "Terapeuta da Fala",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
+    "roundedImageUrl": "/assets/images/catarina-duarte-rounded.webp",
+    "imageUrl": "/assets/images/catarina-duarte.webp",
     "description": "A Terapeuta da Fala Catarina Duarte é licenciada em Terapia da Fala pelo Instituto Politécnico de Setúbal em 2025. Realizou uma formação em Intervenção dos Terapeutas da Fala nas Perturbações Motoras dos Sons da Fala e possui ainda formação em Suporte Básico de Vida. Adora trabalhar com a população infantojuvenil e pelo desenvolvimento infantil.",
     "hobbies": {
       "like": "Adora ir à praia, viajar, ler e desfrutar da calma do campo.",
@@ -419,8 +419,8 @@ const team = [
     "firstname": "Ana",
     "lastname": "Gomes",
     "mainService": "Psicomotricista",
-    "roundedImageUrl": "/assets/images/avatar.png",
-    "imageUrl": "/assets/images/avatar.png",
+    "roundedImageUrl": "/assets/images/ana-gomes-rounded.webp",
+    "imageUrl": "/assets/images/ana-gomes.webp",
     "description": "A Psicomotricista Ana Gomes licenciou-se em 2019 pela Faculdade de Motricidade Humana – Universidade de Lisboa, onde também concluiu o Mestrado em Reabilitação Psicomotora. Desde então, tem vindo a desenvolver a sua carreira em contexto escolar, clínico e domiciliar, intervindo com crianças e jovens com Perturbações do Desenvolvimento (PHDA, PEA, Trissomias...), Perturbações da Aprendizagem e do Comportamento. Desde cedo, percebeu o seu interesse pelo desenvolvimento infantil, o que despertou a sua paixão pela psicomotricidade. No seu trabalho, utiliza o movimento e a interação para promover o desenvolvimento motor, cognitivo e emocional das crianças e jovens. Em cada sessão, planeia estratégias individualizadas, respeitando as necessidades e capacidades de cada um, acreditando que todas as conquistas, por mais pequenas que sejam, refletem o potencial único de cada criança e a importância de um acompanhamento adaptado e consistente.",
     "hobbies": {
       "like": "Gosta de eventos culturais, especialmente concertos, festivais e teatro, de sol e calor, de ler e de conversas longas com amigos.",
@@ -483,6 +483,70 @@ const team = [
         "title": "Adaptação curricular"
       }
     ]
+  },
+  {
+    "id": "monica-gaspar",
+    "firstname": "Mónica",
+    "lastname": "Gaspar",
+    "mainService": "Psicomotricista",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Psicomotricista Mónica Gaspar é uma profissional especializada na área da psicomotricidade, dedicando-se ao desenvolvimento motor, cognitivo e emocional dos seus utentes. Com uma abordagem centrada na pessoa, utiliza o movimento e a interação corporal como ferramentas terapêuticas para promover o bem-estar e o desenvolvimento integral de crianças, jovens e adultos.",
+    "hobbies": {
+      "like": "",
+      "notLike": "",
+      "curiosities": ""
+    },
+    "services": [2],
+    "skills": []
+  },
+  {
+    "id": "catia-pentieiros",
+    "firstname": "Cátia",
+    "lastname": "Pentieiros",
+    "mainService": "Fisioterapeuta Pediátrica",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Fisioterapeuta Pediátrica Cátia Pentieiros é uma profissional especializada na área da fisioterapia pediátrica, focada no desenvolvimento, manutenção e reabilitação das capacidades físicas e funcionais de bebés, crianças e adolescentes. A sua intervenção visa promover o desenvolvimento motor adequado e maximizar o potencial funcional de cada criança.",
+    "hobbies": {
+      "like": "",
+      "notLike": "",
+      "curiosities": ""
+    },
+    "services": [11],
+    "skills": []
+  },
+  {
+    "id": "lara-borges",
+    "firstname": "Lara",
+    "lastname": "Borges",
+    "mainService": "Psicóloga",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Psicóloga Lara Borges é uma profissional especializada nas áreas da psicologia e orientação escolar e vocacional. Com uma abordagem integrada, dedica-se ao apoio psicológico e ao desenvolvimento de competências pessoais, escolares e profissionais, acompanhando crianças, jovens e adultos nos seus processos de crescimento e tomada de decisão.",
+    "hobbies": {
+      "like": "",
+      "notLike": "",
+      "curiosities": ""
+    },
+    "services": [9, 10],
+    "skills": []
+  },
+  {
+    "id": "cristiana-teixeira",
+    "firstname": "Cristiana",
+    "lastname": "Teixeira",
+    "mainService": "Psicomotricista",
+    "roundedImageUrl": "/assets/images/avatar.png",
+    "imageUrl": "/assets/images/avatar.png",
+    "description": "A Psicomotricista Cristiana Teixeira é uma profissional com dupla especialização em psicomotricidade e técnica-sombra. A sua intervenção foca-se no desenvolvimento motor, cognitivo e emocional, utilizando uma abordagem multidisciplinar que combina as competências da psicomotricidade com o apoio especializado em contexto escolar e terapêutico.",
+    "hobbies": {
+      "like": "",
+      "notLike": "",
+      "curiosities": ""
+    },
+    "services": [2, 4],
+    "skills": []
   }
 ]
 
