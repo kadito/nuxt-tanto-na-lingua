@@ -132,7 +132,7 @@ const team = [
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
       },
       {
-        "title": "Intervenção com crianças dos 3 anos aos 13 anos"
+        "title": "Intervenção com crianças idade pré-escolar e escolar"
       },
       {
         "title": "Intervenção com adultos com alterações da Motricidade Oro facial"
@@ -162,7 +162,7 @@ const team = [
         "title": "Intervenção com crianças com perturbações do desenvolvimento e do comportamento"
       },
       {
-        "title": "Intervenção com crianças dos 3 anos aos 13 anos."
+        "title": "Intervenção com crianças idade pré-escolar e escolar."
       }
     ]
   },
@@ -369,7 +369,7 @@ const team = [
     "mainService": "Terapeuta da Fala",
     "roundedImageUrl": "/assets/images/catarina-duarte-rounded.webp",
     "imageUrl": "/assets/images/catarina-duarte.webp",
-    "description": "A Terapeuta da Fala Catarina Duarte é licenciada em Terapia da Fala pelo Instituto Politécnico de Setúbal em 2025. Realizou uma formação em Intervenção dos Terapeutas da Fala nas Perturbações Motoras dos Sons da Fala e possui ainda formação em Suporte Básico de Vida. Adora trabalhar com a população infantojuvenil e pelo desenvolvimento infantil.",
+    "description": "A Terapeuta da Fala Catarina Duarte é licenciada em Terapia da Fala pelo Instituto Politécnico de Setúbal em 2025. Realizou uma formação em Intervenção dos Terapeutas da Fala nas Perturbações Motoras dos Sons da Fala e possui ainda formação em Suporte Básico de Vida.",
     "hobbies": {
       "like": "Adora ir à praia, viajar, ler e desfrutar da calma do campo.",
       "notLike": "Não gosta de cogumelos, mas às vezes lá aparecem na cozinha.",
