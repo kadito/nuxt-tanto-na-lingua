@@ -82,6 +82,11 @@
                 &copy; 2024 Agitaneurónios, Unipessoal LDA. Todos os direitos reservados.
               </p>
               <div class="flex items-center space-x-4 text-sm">
+                <a href="https://www.iubenda.com/privacy-policy/96029410" class="iubenda-white iubenda-noiframe iubenda-embed text-accent-200 hover:text-primary-400 transition-colors" title="Política de Privacidade">Política de Privacidade</a>
+                <span class="text-accent-300">|</span>
+                <a href="https://www.iubenda.com/privacy-policy/96029410/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed text-accent-200 hover:text-primary-400 transition-colors" title="Política de Cookies">Política de Cookies</a>
+              </div>
+              <div class="flex items-center space-x-4 text-sm">
                 <span class="text-accent-300">Desenvolvido com</span>
                 <svg class="h-4 w-4 text-red-400" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />

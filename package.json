@@ -7,7 +7,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "deploy": "gh-pages --dotfiles -d .output/public",
-    "cf-deploy": "wrangler pages deploy dist/ --project-name site-tanto-na-lingua",
+    "cf-deploy": "npx wrangler pages deploy dist/ --project-name site-tanto-na-lingua",
     "cf-deploy-preview": "wrangler pages deploy dist/ --project-name site-tanto-na-lingua --branch preview"
   },
   "devDependencies": {

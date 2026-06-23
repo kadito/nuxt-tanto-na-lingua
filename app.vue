@@ -564,17 +564,7 @@ useHead({
   link: [
     { id: 'canonical', href: `https://${runtimeConfig.public.DOMAIN}${route.fullPath}` }
   ],
-  script: [
-    {
-      innerHTML: `
-      window.dataLayer = window.dataLayer || [];
-
-      gtag('js', new Date());
-
-      gtag('config', 'G-1K35XKEL7N');
-      `
-    }
-  ]
+  script: []
 })
 
 
